@@ -1,0 +1,707 @@
+RefSeq	Domain	Genome	PFAMdomains	PFAMfamilies	Description
+EFN55221.1	Eukaryotic	Chlorella variabilis-1	YchF-GTPase-C	MMR-HSR1	 hypothetical protein CHLNCDRAFT-56178 
+EFN53931.1	Eukaryotic	Chlorella variabilis-1	YchF-GTPase-C	MMR-HSR1	 hypothetical protein CHLNCDRAFT-25367 
+XP_657513.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein 
+EDO80335.1	Eukaryotic	Giardia lamblia ATCC 50803-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein, putative 
+NP_009581.1	Eukaryotic	Saccharomyces cerevisiae-2	YchF-GTPase-C	MMR-HSR1	 P-loop ATPase with similarity to human OLA1 and bacterial YchF; identified as specifically interacting with the proteasome; protein levels are induced by hydrogen peroxide; Ola1p 
+NP_011726.1	Eukaryotic	Saccharomyces cerevisiae-7		MMR-HSR1-MMR-HSR1-C	 Putative protein of unknown function; green fluorescent protein (GFP)-fusion protein localizes to the cytoplasm; Ygr210cp 
+NP_011849.1	Eukaryotic	Saccharomyces cerevisiae-8	YchF-GTPase-C	MMR-HSR1	 Protein of unknown function, has weak similarity to E. coli GTP-binding protein gtp1; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; Ylf2p 
+EEY66707.1	Eukaryotic	Phytophthora infestans T30-4-1		MMR-HSR1-MMR-HSR1-C	 conserved hypothetical protein 
+EEY65894.1	Eukaryotic	Phytophthora infestans T30-4-1	YchF-GTPase-C	MMR-HSR1	 GTPase, putative 
+EEY55155.1	Eukaryotic	Phytophthora infestans T30-4-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein engD, putative 
+EEY54068.1	Eukaryotic	Phytophthora infestans T30-4-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein engD 
+EAS04323.1	Eukaryotic	Tetrahymena thermophila SB210-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF containing protein 
+EAR95036.1	Eukaryotic	Tetrahymena thermophila SB210-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF containing protein 
+EAN95922.1	Eukaryotic	Trypanosoma cruzi-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein, putative 
+EAN94221.1	Eukaryotic	Trypanosoma cruzi-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein, putative 
+EAN91644.1	Eukaryotic	Trypanosoma cruzi-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein, putative 
+EAN81670.1	Eukaryotic	Trypanosoma cruzi-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein, putative 
+EAN80874.1	Eukaryotic	Trypanosoma cruzi-1		MMR-HSR1-C	 hypothetical protein, conserved 
+NP_174346.1	Eukaryotic	Arabidopsis thaliana-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein 
+NP_176001.2	Eukaryotic	Arabidopsis thaliana-1	YchF-GTPase-C	MMR-HSR1	 putative GTP-binding protein 
+XP_003073079.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1	YchF-GTPase-C	MMR-HSR1	 putative GTP-binding protein 
+NP_037473.3	Eukaryotic	Homo sapiens-1	YchF-GTPase-C	MMR-HSR1	 obg-like ATPase 1 isoform 1 
+XP_002669220.1	Eukaryotic	Naegleria gruberi-1	YchF-GTPase-C	MMR-HSR1	 predicted protein 
+XP_002673540.1	Eukaryotic	Naegleria gruberi-1	YchF-GTPase-C	MMR-HSR1	 predicted protein 
+XP_002680340.1	Eukaryotic	Naegleria gruberi-1		MMR-HSR1-MMR-HSR1-C	 predicted protein 
+XP_002682734.1	Eukaryotic	Naegleria gruberi-1	YchF-GTPase-C	MMR-HSR1	 predicted protein 
+XP_002261143.1	Eukaryotic	Plasmodium knowlesi strain H-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein 
+CAO80251.1	Eubacterial	Candidatus Cloacamonas acidaminovorans-1	YchF-GTPase-C	MMR-HSR1	CLOAM0346 conserved hypothetical protein 
+YP_001956096	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1	YchF-GTPase-C	MMR-HSR1	TGRD-152 GTP-dependent nucleic acid-binding protein EngD 
+ZP_02730857	Eubacterial	Gemmata obscuriglobus UQM 2246-1	YchF-GTPase-C	MMR-HSR1	GobsU-010100003604 translation-associated GTPase 
+NP_229045.1	Eubacterial	Thermotoga maritima MSB8-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+NP_213425.1	Eubacterial	Aquifex aeolicus VF5-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+NP_295109.1	Eubacterial	Deinococcus radiodurans R1-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+NP_881686.1	Eubacterial	Bordetella pertussis Tohama I-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_180801.1	Eubacterial	Dehalococcoides ethenogenes 195-1	YchF-GTPase-C		 translation-associated GTPase 
+NP_820821.2	Eubacterial	Coxiella burnetii RSA 493-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+NP_348752.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+NP_604262.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+NP_623256.1	Eubacterial	Thermoanaerobacter tengcongensis MB4-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+NP_712510.1	Eubacterial	Leptospira interrogans serovar Lai str. 56601-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+NP_926179.1	Eubacterial	Gloeobacter violaceus PCC 7421-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+NP_969505.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_101850.1	Eubacterial	Bacteroides fragilis YCH46-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_144451.1	Eubacterial	Thermus thermophilus HB8-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_171677.1	Eubacterial	Synechococcus elongatus PCC 6301-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_225320.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_264181.1	Eubacterial	Psychrobacter arcticus 273-4-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_358903.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_378888.1	Eubacterial	Chlorobium chlorochromatii CaD3-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_428829.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_821977.1	Eubacterial	Solibacter usitatus Ellin6076-1	YchF-GTPase-C		 translation-associated GTPase 
+YP_864748.1	Eubacterial	Magnetococcus sp. MC-1-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_001000604.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001009704.1	Eubacterial	Prochlorococcus marinus str. AS9601-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001184370.1	Eubacterial	Shewanella putrefaciens CN-32-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_001295565.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_001620697.1	Eubacterial	Acholeplasma laidlawii PG-8A-1	YchF-GTPase-C	MMR-HSR1	 YchF family protein, GTPase 
+YP_001634249.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_001650301.1	Eubacterial	Rickettsia rickettsii str. Iowa-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001654431.1	Eubacterial	Chlamydia trachomatis 434/Bu-1	YchF-GTPase-C	MMR-HSR1	 translation-associated GTPase 
+YP_002006776.1	Eubacterial	Cupriavidus taiwanensis-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001802552.1	Eubacterial	Cyanothece sp. ATCC 51142-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001817708.1	Eubacterial	Opitutus terrae PB90-1-1	YchF-GTPase-C		 hypothetical protein Oter-0820 
+YP_001819976.1	Eubacterial	Opitutus terrae PB90-1-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_001869581.1	Eubacterial	Nostoc punctiforme PCC 73102-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_001875106.1	Eubacterial	Elusimicrobium minutum Pei191-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_001877064.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_002248740.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1	YchF-GTPase-C	MMR-HSR1	 GTP-dependent nucleic acid-binding protein EngD 
+YP_002250995.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein 
+YP_002522998.1	Eubacterial	Thermomicrobium roseum DSM 5159-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_002533010.1	Eubacterial	Bacillus cereus Q1-1	YchF-GTPase-C	MMR-HSR1	 conserved GTP-binding protein 
+YP_002755132.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_002760720.1	Eubacterial	Gemmatimonas aurantiaca T-27-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein 
+YP_002976831.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_003091597.1	Eubacterial	Pedobacter heparinus DSM 2366-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_003186323.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_003317050.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_003323578.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+YP_003369518.1	Eubacterial	Pirellula staleyi DSM 6068-1	YchF-GTPase-C	MMR-HSR1	 GTP-binding protein YchF 
+NP_866557	Eubacterial	Rhodopirellula baltica SH 1-1	YchF-GTPase-C	MMR-HSR1	RB5186 probable GTP-binding protein 
+YP_876269	Archaebacterial	Cenarchaeum symbiosum A-1		MMR-HSR1-MMR-HSR1-C-TGS	CENSYa-1342 GTPase 
+YP_876566	Archaebacterial	Cenarchaeum symbiosum A-1		MMR-HSR1-MMR-HSR1-C-TGS	CENSYa-1644 GTPase 
+YP_003127858	Archaebacterial	Methanocaldococcus fervens AG86-1		MMR-HSR1-MMR-HSR1-C-TGS	Mefer-0537 GTPase of unknown function domain protein 
+NP_147752.1	Archaebacterial	Aeropyrum pernix K1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_127199.1	Archaebacterial	Pyrococcus abyssi GE5-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_070193.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_142493.1	Archaebacterial	Pyrococcus horikoshii OT3-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_394364.1	Archaebacterial	Thermoplasma acidophilum DSM 1728-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_279556.1	Archaebacterial	Halobacterium sp. NRC-1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_280498.1	Archaebacterial	Halobacterium sp. NRC-1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_111528.1	Archaebacterial	Thermoplasma volcanium GSS1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_342249.2	Archaebacterial	Sulfolobus solfataricus P2-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_560538.1	Archaebacterial	Pyrobaculum aerophilum str. IM2-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_578103.1	Archaebacterial	Pyrococcus furiosus DSM 3638-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_613658.1	Archaebacterial	Methanopyrus kandleri AV19-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_619263.1	Archaebacterial	Methanosarcina acetivorans C2A-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_633106.1	Archaebacterial	Methanosarcina mazei Go1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+NP_963747.1	Archaebacterial	Nanoarchaeum equitans Kin4-M-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_023630.1	Archaebacterial	Picrophilus torridus DSM 9790-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_135032.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_136473.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_255303.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_304621.1	Archaebacterial	Methanosarcina barkeri str. Fusaro-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_326491.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_326919.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_448476.1	Archaebacterial	Methanosphaera stadtmanae DSM 3091-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_504037.1	Archaebacterial	Methanospirillum hungatei JF-1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_566589.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_658345.1	Archaebacterial	Haloquadratum walsbyi DSM 16790-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_842614.1	Archaebacterial	Methanosaeta thermophila PT-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_920120.1	Archaebacterial	Thermofilum pendens Hrk 5-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001012755.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001030065.1	Archaebacterial	Methanocorpusculum labreanum Z-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001040859.1	Archaebacterial	Staphylothermus marinus F1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001047488.1	Archaebacterial	Methanoculleus marisnigri JR1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001153865.1	Archaebacterial	Pyrobaculum arsenaticum DSM 13514-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001190170.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001322964.1	Archaebacterial	Methanococcus vannielii SB-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001325638.1	Archaebacterial	Methanococcus aeolicus Nankai-3-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001404885.1	Archaebacterial	Candidatus Methanoregula boonei 6A8-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001435948.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001539909.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001549589.1	Archaebacterial	Methanococcus maripaludis C6-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001582314.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001582868.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_001737807.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase domain-containing protein 
+YP_001794985.1	Archaebacterial	Thermoproteus neutrophilus V24Sta-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase domain-containing protein 
+YP_002429025.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_002465403.1	Archaebacterial	Candidatus Methanosphaerula palustris E1-9c-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding protein HSR1-related 
+YP_002565449.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase of unknown function domain protein 
+YP_002566123.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase of unknown function domain protein 
+YP_002959057.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase, MMR-HSR1 family 
+YP_003129049.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding hypothetical protein TIGR00650 
+YP_003131175.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding hypothetical protein TIGR00650 
+YP_003177162.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding conserved hypothetical protein TIGR00650 
+YP_003178626.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding conserved hypothetical protein TIGR00650 
+YP_003357424.1	Archaebacterial	Methanocella paludicola SANAE-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTP-binding protein 
+YP_003400094.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase of unknown function domain protein 
+YP_003403527.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase of unknown function domain protein 
+YP_003404540.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		MMR-HSR1-MMR-HSR1-C-TGS	 GTPase of unknown function domain protein 
+YP_003422924.1	Archaebacterial	Methanobrevibacter ruminantium M1-1		MMR-HSR1-MMR-HSR1-C-TGS	 translation-associated GTPase 
+YP_003683029.1	Plasmid	Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111-1		Ribosomal-L18e	 ribosomal protein L15 
+XP_001712881.1	Eukaryotic	Bigelowiella natans-1		Ribosomal-L18e	 ribosomal protein L27a 
+EFN59652.1	Eukaryotic	Chlorella variabilis-1		Ribosomal-L18e	 hypothetical protein CHLNCDRAFT-133134 
+EFN56964.1	Eukaryotic	Chlorella variabilis-1		Ribosomal-L18e	 hypothetical protein CHLNCDRAFT-143546 
+EFN56655.1	Eukaryotic	Chlorella variabilis-1		Ribosomal-L18e	 hypothetical protein CHLNCDRAFT-144493 
+XP_001913936.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+XP_001913724.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+XP_654588.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+XP_650888.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+EDO76376.1	Eukaryotic	Giardia lamblia ATCC 50803-1		Ribosomal-L18e	 Ribosomal protein L27a 
+XP_001712533.1	Eukaryotic	Hemiselmis andersenii-1		Ribosomal-L18e	 rpl27A 
+NP_011412.1	Eukaryotic	Saccharomyces cerevisiae-7		Ribosomal-L18e	 Ribosomal protein of the large (60S) ribosomal subunit, has similarity to E. coli L15 and rat L27a ribosomal proteins; may have peptidyl transferase activity; can mutate to cycloheximide resistance; Rpl28p 
+EEY55120.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L18e	 50S ribosomal protein L15 
+EEY55118.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L18e	 50S ribosomal protein L15 
+EEY53168.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L18e	 ribosomal protein L27 
+EAN99792.1	Eukaryotic	Trypanosoma cruzi-1		Ribosomal-L18e	 60S ribosomal protein L27A/L29, putative 
+EAN99791.1	Eukaryotic	Trypanosoma cruzi-1		Ribosomal-L18e	 60S ribosomal protein L27A/L29, putative 
+NP_173743.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L18e	 60S ribosomal protein L27a-2 
+NP_172756.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L18e	 large subunit ribosomal protein L27Ae 
+NP_177217.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L18e	 60S ribosomal protein L27a-3 
+NP_201272.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L18e	 ribosomal protein L18e/L15 
+XP_003073779.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1		Ribosomal-L18e	 60S ribosomal protein L27A 
+NP_000981.1	Eukaryotic	Homo sapiens-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+XP_002668579.1	Eukaryotic	Naegleria gruberi-1		Ribosomal-L18e	 predicted protein 
+XP_002670063.1	Eukaryotic	Naegleria gruberi-1		Ribosomal-L18e	 predicted protein 
+XP_002261493.1	Eukaryotic	Plasmodium knowlesi strain H-1		Ribosomal-L18e	 60S ribosomal protein L27a 
+CAO80983	Eubacterial	Candidatus Cloacamonas acidaminovorans-1		Ribosomal-L18e	CLOAM1121 50S ribosomal subunit protein L15 
+YP_001956044	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1		Ribosomal-L18e	TGRD-100 50S ribosomal protein L15 
+ZP_02734645	Eubacterial	Gemmata obscuriglobus UQM 2246-1		Ribosomal-L18e	GobsU-010100022772 50S ribosomal protein L15 
+NP_229281.1	Eubacterial	Thermotoga maritima MSB8-1		Ribosomal-L18e	 ribosomal protein L15 
+NP_214127.1	Eubacterial	Aquifex aeolicus VF5-1		Ribosomal-L18e	 ribosomal protein L15 
+NP_295838.1	Eubacterial	Deinococcus radiodurans R1-1		Ribosomal-L18e	 50S ribosomal protein L15 
+NP_882144.1	Eubacterial	Bordetella pertussis Tohama I-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_181237.1	Eubacterial	Dehalococcoides ethenogenes 195-1		Ribosomal-L18e	 50S ribosomal protein L15 
+NP_819301.1	Eubacterial	Coxiella burnetii RSA 493-1		Ribosomal-L18e	 LSU ribosomal protein L15P 
+NP_349713.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1		Ribosomal-L18e	 50S ribosomal protein L15 
+NP_602441.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_623813.1	Eubacterial	Thermoanaerobacter tengcongensis MB4-1		Ribosomal-L18e	 ribosomal protein L15 
+NP_710939.1	Eubacterial	Leptospira interrogans serovar Lai str. 56601-1		Ribosomal-L18e	 50S ribosomal protein L15 
+NP_926855.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		Ribosomal-L18e	 50S ribosomal protein L15 
+NP_969738.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_101439.1	Eubacterial	Bacteroides fragilis YCH46-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_144939.1	Eubacterial	Thermus thermophilus HB8-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_172592.1	Eubacterial	Synechococcus elongatus PCC 6301-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_224836.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_263805.1	Eubacterial	Psychrobacter arcticus 273-4-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_361099.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_380126.1	Eubacterial	Chlorobium chlorochromatii CaD3-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_427753.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_826339.1	Eubacterial	Solibacter usitatus Ellin6076-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_864791.1	Eubacterial	Magnetococcus sp. MC-1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001001333.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001010138.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001185246.1	Eubacterial	Shewanella putrefaciens CN-32-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001296214.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001620108.1	Eubacterial	Acholeplasma laidlawii PG-8A-1		Ribosomal-L18e	 large subunit ribosomal protein L15 
+YP_001635986.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001650357.1	Eubacterial	Rickettsia rickettsii str. Iowa-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001654844.1	Eubacterial	Chlamydia trachomatis 434/Bu-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_002006910.1	Eubacterial	Cupriavidus taiwanensis-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001805446.1	Eubacterial	Cyanothece sp. ATCC 51142-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001817099.1	Eubacterial	Opitutus terrae PB90-1-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001867689.1	Eubacterial	Nostoc punctiforme PCC 73102-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_001876286.1	Eubacterial	Elusimicrobium minutum Pei191-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001877544.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002249227.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002250719.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002522183.1	Eubacterial	Thermomicrobium roseum DSM 5159-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002527949.1	Eubacterial	Bacillus cereus Q1-1		Ribosomal-L18e	 ribosomal protein L15 (50S ribosomal protein L15) 
+YP_002754518.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002760404.1	Eubacterial	Gemmatimonas aurantiaca T-27-1		Ribosomal-L18e	 50S ribosomal protein L15 
+YP_002975280.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003090905.1	Eubacterial	Pedobacter heparinus DSM 2366-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003186085.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003317679.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003322473.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003371148.1	Eubacterial	Pirellula staleyi DSM 6068-1		Ribosomal-L18e	 ribosomal protein L15 
+NP_868070	Eubacterial	Rhodopirellula baltica SH 1-1		Ribosomal-L18e	RB7863 50S ribosomal protein L15 
+YP_875266	Archaebacterial	Cenarchaeum symbiosum A-1		Ribosomal-L18e	CENSYa-0326 ribosomal protein L15 
+YP_003127993	Archaebacterial	Methanocaldococcus fervens AG86-1		Ribosomal-L18e	Mefer-0674 ribosomal protein L15 
+NP_147164.1	Archaebacterial	Aeropyrum pernix K1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_126010.1	Archaebacterial	Pyrococcus abyssi GE5-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_070728.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		Ribosomal-L18e	 50S ribosomal protein L15P (rpl15P) 
+NP_143593.3	Archaebacterial	Pyrococcus horikoshii OT3-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_394705.1	Archaebacterial	Thermoplasma acidophilum DSM 1728-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_280478.1	Archaebacterial	Halobacterium sp. NRC-1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_110866.1	Archaebacterial	Thermoplasma volcanium GSS1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_342207.1	Archaebacterial	Sulfolobus solfataricus P2-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_560731.1	Archaebacterial	Pyrobaculum aerophilum str. IM2-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_579531.3	Archaebacterial	Pyrococcus furiosus DSM 3638-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_613314.1	Archaebacterial	Methanopyrus kandleri AV19-1		Ribosomal-L18e	 ribosomal protein L15 
+NP_616039.1	Archaebacterial	Methanosarcina acetivorans C2A-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_634170.1	Archaebacterial	Methanosarcina mazei Go1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+NP_963604.1	Archaebacterial	Nanoarchaeum equitans Kin4-M-1		Ribosomal-L18e	 hypothetical protein NEQ317 
+YP_023440.1	Archaebacterial	Picrophilus torridus DSM 9790-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_136214.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_255260.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_303655.1	Archaebacterial	Methanosarcina barkeri str. Fusaro-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_331174.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_447917.1	Archaebacterial	Methanosphaera stadtmanae DSM 3091-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_503655.1	Archaebacterial	Methanospirillum hungatei JF-1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_564797.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_658530.1	Archaebacterial	Haloquadratum walsbyi DSM 16790-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_844112.1	Archaebacterial	Methanosaeta thermophila PT-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_919647.1	Archaebacterial	Thermofilum pendens Hrk 5-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001013497.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001029547.1	Archaebacterial	Methanocorpusculum labreanum Z-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001041047.1	Archaebacterial	Staphylothermus marinus F1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001046501.1	Archaebacterial	Methanoculleus marisnigri JR1-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001154076.1	Archaebacterial	Pyrobaculum arsenaticum DSM 13514-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001190214.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001323250.1	Archaebacterial	Methanococcus vannielii SB-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001325594.1	Archaebacterial	Methanococcus aeolicus Nankai-3-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001403715.1	Archaebacterial	Candidatus Methanoregula boonei 6A8-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001435857.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001540530.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001549297.1	Archaebacterial	Methanococcus maripaludis C6-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_001581735.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001738000.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_001794676.1	Archaebacterial	Thermoproteus neutrophilus V24Sta-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002428846.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_002465561.1	Archaebacterial	Candidatus Methanosphaerula palustris E1-9c-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_002567072.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		Ribosomal-L18e	 ribosomal protein L15 
+YP_002960346.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		Ribosomal-L18e	 LSU ribosomal protein L15P (rpl15P) 
+YP_003131214.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003177671.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003357298.1	Archaebacterial	Methanocella paludicola SANAE-1		Ribosomal-L18e	 50S ribosomal protein L15P 
+YP_003401061.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003403793.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		Ribosomal-L18e	 ribosomal protein L15 
+YP_003423617.1	Archaebacterial	Methanobrevibacter ruminantium M1-1		Ribosomal-L18e	 ribosomal protein L15P Rpl15p 
+YP_294159.1	Virus	Emiliania huxleyi virus 86-1		RNase-HII	 putative ribonuclease 
+YP_001023167.1	Plasmid	Methylibium petroleiphilum PM1-1		RNase-HII	 RNase HII 
+YP_001201918.1	Plasmid	Pseudomonas fluorescens SBW25-1		RNase-HII	 putative ribonuclease HII 
+YP_002967373.1	Plasmid	Methylobacterium extorquens AM1-4		RNase-HII	 ribonuclease HII, degrades RNA of DNA-RNA hybrids 
+YP_003452602.1	Plasmid	Azospirillum sp. B510-4		RNase-HII	 ribonuclease HII 
+YP_004090071.1	Plasmid	Ruminococcus albus 7-2		RNase-HII	 Ribonuclease H 
+EFN55760.1	Eukaryotic	Chlorella variabilis-1		RNase-HII	 hypothetical protein CHLNCDRAFT-23163 
+EFN51532.1	Eukaryotic	Chlorella variabilis-1		RNase-HII	 hypothetical protein CHLNCDRAFT-140248 
+XP_655093.2	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		RNase-HII	 RNase HI large subunit 
+EDO81557.1	Eukaryotic	Giardia lamblia ATCC 50803-1		RNase-HII	 Ribonuclease HI, large sub 
+NP_014327.1	Eukaryotic	Saccharomyces cerevisiae-14		RNase-HII	 Ribonuclease H2 catalytic subunit, removes RNA primers during Okazaki fragment synthesis; cooperates with Rad27p nuclease; Rnh201p 
+EEY59579.1	Eukaryotic	Phytophthora infestans T30-4-1		RNase-HII	 ribonuclease HII 
+EAR90822.1	Eukaryotic	Tetrahymena thermophila SB210-1		RNase-HII	 ribonuclease HII family protein 
+EAN85033.1	Eukaryotic	Trypanosoma cruzi-1		RNase-HII	 ribonuclease H, putative 
+EAN84804.1	Eukaryotic	Trypanosoma cruzi-1		RNase-HII	 ribonuclease H, putative 
+NP_565584.1	Eukaryotic	Arabidopsis thaliana-1		RNase-HII	 Ribonuclease H2 subunit A 
+XP_003072562.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1		RNase-HII	 ribonuclease HII 
+NP_006388.2	Eukaryotic	Homo sapiens-1		RNase-HII	 ribonuclease H2 subunit A 
+XP_002678266.1	Eukaryotic	Naegleria gruberi-1		RNase-HII	 predicted protein 
+XP_002261438.1	Eukaryotic	Plasmodium knowlesi strain H-1		RNase-HII	 ribonuclease H1 large subunit 
+CAO80879	Eubacterial	Candidatus Cloacamonas acidaminovorans-1		RNase-HII	CLOAM1007 ribonuclease HII 
+YP_001955961	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1		RNase-HII	TGRD-017 ribonuclease HII 
+NP_228723.1	Eubacterial	Thermotoga maritima MSB8-1		RNase-HII	 ribonuclease HII 
+NP_214337.1	Eubacterial	Aquifex aeolicus VF5-1		RNase-HII	 RNase HII 
+NP_295672.1	Eubacterial	Deinococcus radiodurans R1-1		RNase-HII	 ribonuclease HII 
+NP_880175.1	Eubacterial	Bordetella pertussis Tohama I-1		RNase-HII	 ribonuclease HII 
+YP_181512.1	Eubacterial	Dehalococcoides ethenogenes 195-1		RNase-HII	 ribonuclease HII 
+NP_820328.1	Eubacterial	Coxiella burnetii RSA 493-1		RNase-HII	 ribonuclease HII 
+NP_348388.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1		RNase-HII	 ribonuclease HII 
+NP_604268.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1		RNase-HII	 ribonuclease HII 
+NP_623069.1	Eubacterial	Thermoanaerobacter tengcongensis MB4-1		RNase-HII	 ribonuclease HII 
+NP_712567.2	Eubacterial	Leptospira interrogans serovar Lai str. 56601-1		RNase-HII	 ribonuclease H II 
+NP_924453.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		RNase-HII	 ribonuclease H 
+NP_968964.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1		RNase-HII	 ribonuclease HII (RNase HII) 
+YP_097573.1	Eubacterial	Bacteroides fragilis YCH46-1		RNase-HII	 ribonuclease HII 
+YP_143464.1	Eubacterial	Thermus thermophilus HB8-1		RNase-HII	 ribonuclease HII 
+YP_171371.1	Eubacterial	Synechococcus elongatus PCC 6301-1		RNase-HII	 ribonuclease HII 
+YP_226274.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1		RNase-HII	 ribonuclease HII 
+YP_264199.1	Eubacterial	Psychrobacter arcticus 273-4-1		RNase-HII	 ribonuclease HII 
+YP_360258.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1		RNase-HII	 ribonuclease HII 
+YP_380284.1	Eubacterial	Chlorobium chlorochromatii CaD3-1		RNase-HII	 ribonuclease HII 
+YP_428291.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1		RNase-HII	 ribonuclease H 
+YP_823839.1	Eubacterial	Solibacter usitatus Ellin6076-1		RNase-HII	 RNase HII 
+YP_864439.1	Eubacterial	Magnetococcus sp. MC-1-1		RNase-HII	 RNase HII 
+YP_999729.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1		RNase-HII	 ribonuclease HII 
+YP_001010095.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		RNase-HII	 ribonuclease HII and HIII 
+YP_001182889.1	Eubacterial	Shewanella putrefaciens CN-32-1		RNase-HII	 ribonuclease H 
+YP_001296094.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1		RNase-HII	 ribonuclease HII 
+YP_001620336.1	Eubacterial	Acholeplasma laidlawii PG-8A-1		RNase-HII	 ribonuclease HII 
+YP_001634660.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1		RNase-HII	 ribonuclease H 
+YP_001649631.1	Eubacterial	Rickettsia rickettsii str. Iowa-1		RNase-HII	 ribonuclease HII 
+YP_001654368.1	Eubacterial	Chlamydia trachomatis 434/Bu-1		RNase-HII	 ribonuclease HII 
+YP_002005685.1	Eubacterial	Cupriavidus taiwanensis-1		RNase-HII	 ribonuclease HII 
+YP_001804737.1	Eubacterial	Cyanothece sp. ATCC 51142-1		RNase-HII	 ribonuclease HII 
+YP_001818981.1	Eubacterial	Opitutus terrae PB90-1-1		RNase-HII	 ribonuclease H 
+YP_001867216.1	Eubacterial	Nostoc punctiforme PCC 73102-1		RNase-HII	 ribonuclease HII 
+YP_001875520.1	Eubacterial	Elusimicrobium minutum Pei191-1		RNase-HII	 ribonuclease H 
+YP_001877173.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1		RNase-HII	 Ribonuclease H 
+YP_002248663.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1		RNase-HII	 ribonuclease HII 
+YP_002251240.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1		RNase-HII	 ribonuclease HII 
+YP_002522257.1	Eubacterial	Thermomicrobium roseum DSM 5159-1		RNase-HII	 ribonuclease HII 
+YP_002531339.1	Eubacterial	Bacillus cereus Q1-1		RNase-HII	 ribonuclease HII 
+YP_002755820.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1		RNase-HII	 ribonuclease HII 
+YP_002761807.1	Eubacterial	Gemmatimonas aurantiaca T-27-1		RNase-HII	 ribonuclease HII 
+YP_002974403.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1		RNase-HII	 Ribonuclease H 
+YP_003090690.1	Eubacterial	Pedobacter heparinus DSM 2366-1		RNase-HII	 Ribonuclease H 
+YP_003184784.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1		RNase-HII	 Ribonuclease H 
+YP_003317866.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1		RNase-HII	 Ribonuclease H 
+YP_003323003.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1		RNase-HII	 Ribonuclease H 
+YP_875496	Archaebacterial	Cenarchaeum symbiosum A-1		RNase-HII	CENSYa-0559 ribonuclease HII 
+YP_003128465	Archaebacterial	Methanocaldococcus fervens AG86-1		RNase-HII	Mefer-1155 ribonuclease HII 
+NP_147280.2	Archaebacterial	Aeropyrum pernix K1-1		RNase-HII	 ribonuclease HII 
+NP_126209.1	Archaebacterial	Pyrococcus abyssi GE5-1		RNase-HII	 ribonuclease HII 
+NP_069455.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		RNase-HII	 ribonuclease HII (rnhB) 
+NP_143500.1	Archaebacterial	Pyrococcus horikoshii OT3-1		RNase-HII	 ribonuclease HII 
+NP_394911.1	Archaebacterial	Thermoplasma acidophilum DSM 1728-1		RNase-HII	 ribonuclease HII 
+NP_280677.1	Archaebacterial	Halobacterium sp. NRC-1-1		RNase-HII	 RNAase H 
+NP_110652.1	Archaebacterial	Thermoplasma volcanium GSS1-1		RNase-HII	 ribonuclease HII 
+NP_343742.1	Archaebacterial	Sulfolobus solfataricus P2-1		RNase-HII	 ribonuclease HII (rnhB) 
+NP_559149.1	Archaebacterial	Pyrobaculum aerophilum str. IM2-1		RNase-HII	 ribonuclease HII 
+NP_579510.1	Archaebacterial	Pyrococcus furiosus DSM 3638-1		RNase-HII	 ribonuclease HII 
+NP_613473.1	Archaebacterial	Methanopyrus kandleri AV19-1		RNase-HII	 ribonuclease HII 
+NP_616882.1	Archaebacterial	Methanosarcina acetivorans C2A-1		RNase-HII	 ribonuclease HII 
+NP_634838.1	Archaebacterial	Methanosarcina mazei Go1-1		RNase-HII	 ribonuclease HII 
+NP_963357.1	Archaebacterial	Nanoarchaeum equitans Kin4-M-1		RNase-HII	 hypothetical protein NEQ063 
+YP_024041.1	Archaebacterial	Picrophilus torridus DSM 9790-1		RNase-HII	 ribonuclease HII 
+YP_137625.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		RNase-HII	 RNAase HII 
+YP_255613.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		RNase-HII	 ribonuclease HII 
+YP_306236.1	Archaebacterial	Methanosarcina barkeri str. Fusaro-1		RNase-HII	 ribonuclease HII 
+YP_326847.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		RNase-HII	 ribonuclease H II 
+YP_448410.1	Archaebacterial	Methanosphaera stadtmanae DSM 3091-1		RNase-HII	 hypothetical protein Msp-1395 
+YP_502682.1	Archaebacterial	Methanospirillum hungatei JF-1-1		RNase-HII	 ribonuclease HII 
+YP_565187.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		RNase-HII	 ribonuclease HII 
+YP_658793.1	Archaebacterial	Haloquadratum walsbyi DSM 16790-1		RNase-HII	 ribonuclease HII 
+YP_843210.1	Archaebacterial	Methanosaeta thermophila PT-1		RNase-HII	 ribonuclease HII 
+YP_920303.1	Archaebacterial	Thermofilum pendens Hrk 5-1		RNase-HII	 ribonuclease HII 
+YP_001013040.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		RNase-HII	 ribonuclease HII 
+YP_001030919.1	Archaebacterial	Methanocorpusculum labreanum Z-1		RNase-HII	 ribonuclease HII 
+YP_001041281.1	Archaebacterial	Staphylothermus marinus F1-1		RNase-HII	 RNase HII 
+YP_001046419.1	Archaebacterial	Methanoculleus marisnigri JR1-1		RNase-HII	 ribonuclease HII 
+YP_001152576.1	Archaebacterial	Pyrobaculum arsenaticum DSM 13514-1		RNase-HII	 ribonuclease HII 
+YP_001190760.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		RNase-HII	 RNase HII 
+YP_001323202.1	Archaebacterial	Methanococcus vannielii SB-1		RNase-HII	 ribonuclease HII 
+YP_001324805.1	Archaebacterial	Methanococcus aeolicus Nankai-3-1		RNase-HII	 ribonuclease HII 
+YP_001405101.1	Archaebacterial	Candidatus Methanoregula boonei 6A8-1		RNase-HII	 ribonuclease HII 
+YP_001436020.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		RNase-HII	 RNase HII 
+YP_001541542.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		RNase-HII	 ribonuclease HII 
+YP_001549344.1	Archaebacterial	Methanococcus maripaludis C6-1		RNase-HII	 ribonuclease HII 
+YP_001582727.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		RNase-HII	 ribonuclease HII 
+YP_001736789.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		RNase-HII	 ribonuclease HII 
+YP_001737576.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		RNase-HII	 ribonuclease HII/HIII 
+YP_001793644.1	Archaebacterial	Thermoproteus neutrophilus V24Sta-1		RNase-HII	 ribonuclease HII 
+YP_002427712.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		RNase-HII	 Ribonuclease HII 
+YP_002466038.1	Archaebacterial	Candidatus Methanosphaerula palustris E1-9c-1		RNase-HII	 ribonuclease HII 
+YP_002566614.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		RNase-HII	 ribonuclease HII 
+YP_002959457.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		RNase-HII	 Ribonuclease HII (rnhB) 
+YP_003129901.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		RNase-HII	 ribonuclease HII 
+YP_003177151.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		RNase-HII	 ribonuclease HII 
+YP_003358016.1	Archaebacterial	Methanocella paludicola SANAE-1		RNase-HII	 ribonuclease HII 
+YP_003399768.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		RNase-HII	 ribonuclease HII 
+YP_003402311.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		RNase-HII	 ribonuclease HII 
+YP_003424580.1	Archaebacterial	Methanobrevibacter ruminantium M1-1		RNase-HII	 ribonuclease HII RnhB 
+YP_003683012.1	Plasmid	Nocardiopsis dassonvillei subsp. dassonvillei DSM 43111-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+EFN52061.1	Eukaryotic	Chlorella variabilis-1		Ribosomal-L23-Ribosomal-L23eN	 hypothetical protein CHLNCDRAFT-139288 
+XP_655485.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Ribosomal-L23	 ribosomal protein L23A 
+EDO78468.1	Eukaryotic	Giardia lamblia ATCC 50803-1		Ribosomal-L23-Ribosomal-L23eN	 Ribosomal protein L23A 
+XP_001712623.1	Eukaryotic	Hemiselmis andersenii-1		Ribosomal-L23-Ribosomal-L23eN	 rpl23A 
+NP_014514.1	Eukaryotic	Saccharomyces cerevisiae-15		Ribosomal-L23-Ribosomal-L23eN	 Primary rRNA-binding ribosomal protein component of the large (60S) ribosomal subunit, has similarity to E. coli L23 and rat L23a ribosomal proteins; binds to 26S rRNA via a conserved C-terminal motif; Rpl25p 
+EEY64162.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L23-Ribosomal-L23eN	 60S ribosomal protein L23a 
+EEY55670.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L23	 ribosomal protein L23, putative 
+EEY55586.1	Eukaryotic	Phytophthora infestans T30-4-1		Ribosomal-L23	 ribosomal protein L23, putative 
+EAR99429.1	Eukaryotic	Tetrahymena thermophila SB210-1		Ribosomal-L23-Ribosomal-L23eN	 ribosomal protein L23 containing protein 
+EAN99142.1	Eukaryotic	Trypanosoma cruzi-1		Ribosomal-L23	 60S ribosomal protein L23a, putative 
+EAN92213.1	Eukaryotic	Trypanosoma cruzi-1		Ribosomal-L23	 60S ribosomal protein L23a, putative 
+NP_051100.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L23	 ribosomal protein L23 
+NP_181478.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L23-Ribosomal-L23eN	 60S ribosomal protein L23a-1 
+NP_191088.1	Eukaryotic	Arabidopsis thaliana-1		Ribosomal-L23-Ribosomal-L23eN	 60S ribosomal protein L23a-2 
+XP_003073478.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1		Ribosomal-L23	 60S ribosomal protein L23A 
+XP_003073698.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1		Ribosomal-L23	 60S ribosomal protein L23A 
+XP_002682293.1	Eukaryotic	Naegleria gruberi-1		Ribosomal-L23-Ribosomal-L23eN	 predicted protein 
+XP_002260107.1	Eukaryotic	Plasmodium knowlesi strain H-1		Ribosomal-L23-Ribosomal-L23eN	 60S ribosomal protein L23a 
+CAO81000	Eubacterial	Candidatus Cloacamonas acidaminovorans-1		Ribosomal-L23	CLOAM1138 50S ribosomal subunit protein L23 
+YP_001956028	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1		Ribosomal-L23	TGRD-084 50S ribosomal protein L23 
+ZP_02734661	Eubacterial	Gemmata obscuriglobus UQM 2246-1		Ribosomal-L23	GobsU-010100022852 50S ribosomal protein L23 
+NP_229298.1	Eubacterial	Thermotoga maritima MSB8-1		Ribosomal-L23	 ribosomal protein L23 
+NP_212991.1	Eubacterial	Aquifex aeolicus VF5-1		Ribosomal-L23	 ribosomal protein L23 
+NP_294036.1	Eubacterial	Deinococcus radiodurans R1-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_882125.1	Eubacterial	Bordetella pertussis Tohama I-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_181220.1	Eubacterial	Dehalococcoides ethenogenes 195-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_819284.1	Eubacterial	Coxiella burnetii RSA 493-1		Ribosomal-L23	 LSU ribosomal protein L23P 
+NP_349730.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_602459.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1		Ribosomal-L23	 50S ribosomal protein L23P 
+NP_623829.1	Eubacterial	Thermoanaerobacter tengcongensis MB4-1		Ribosomal-L23	 ribosomal protein L23 
+NP_710922.1	Eubacterial	Leptospira interrogans serovar Lai str. 56601-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_923033.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_969753.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_101456.1	Eubacterial	Bacteroides fragilis YCH46-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_144956.1	Eubacterial	Thermus thermophilus HB8-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_172577.1	Eubacterial	Synechococcus elongatus PCC 6301-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_224805.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_263788.1	Eubacterial	Psychrobacter arcticus 273-4-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_361116.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_380143.1	Eubacterial	Chlorobium chlorochromatii CaD3-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_427770.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_826356.1	Eubacterial	Solibacter usitatus Ellin6076-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_864774.1	Eubacterial	Magnetococcus sp. MC-1-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001001349.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001010153.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001185263.1	Eubacterial	Shewanella putrefaciens CN-32-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001296231.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001620091.1	Eubacterial	Acholeplasma laidlawii PG-8A-1		Ribosomal-L23	 large subunit ribosomal protein L23 
+YP_001635969.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001650374.1	Eubacterial	Rickettsia rickettsii str. Iowa-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001654859.1	Eubacterial	Chlamydia trachomatis 434/Bu-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_002006927.1	Eubacterial	Cupriavidus taiwanensis-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001805430.1	Eubacterial	Cyanothece sp. ATCC 51142-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001817115.1	Eubacterial	Opitutus terrae PB90-1-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001867704.1	Eubacterial	Nostoc punctiforme PCC 73102-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001876302.1	Eubacterial	Elusimicrobium minutum Pei191-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001876925.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_002249243.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1		Ribosomal-L23	 ribosomal protein L23 
+YP_002250703.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1		Ribosomal-L23	 ribosomal protein L23 
+YP_002522199.1	Eubacterial	Thermomicrobium roseum DSM 5159-1		Ribosomal-L23	 ribosomal protein L23 
+YP_002527932.1	Eubacterial	Bacillus cereus Q1-1		Ribosomal-L23	 ribosomal protein L23 (50S ribosomal protein L23) 
+YP_002754535.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1		Ribosomal-L23	 ribosomal protein L23 
+YP_002760387.1	Eubacterial	Gemmatimonas aurantiaca T-27-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_002975263.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003090888.1	Eubacterial	Pedobacter heparinus DSM 2366-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003186102.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003317696.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003322456.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003371131.1	Eubacterial	Pirellula staleyi DSM 6068-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+NP_868054	Eubacterial	Rhodopirellula baltica SH 1-1		Ribosomal-L23	RB7836 50S ribosomal protein L23 
+YP_875797	Archaebacterial	Cenarchaeum symbiosum A-1		Ribosomal-L23	CENSYa-0860 ribosomal protein L23 
+YP_003128056	Archaebacterial	Methanocaldococcus fervens AG86-1		Ribosomal-L23	Mefer-0738 ribosomal protein L23 
+NP_147064.2	Archaebacterial	Aeropyrum pernix K1-1		Ribosomal-L23	 50S ribosomal protein L23P 
+NP_126031.1	Archaebacterial	Pyrococcus abyssi GE5-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_070748.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		Ribosomal-L23	 50S ribosomal protein L23P (rpl23P) 
+NP_143614.1	Archaebacterial	Pyrococcus horikoshii OT3-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_394726.1	Archaebacterial	Thermoplasma acidophilum DSM 1728-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_280458.1	Archaebacterial	Halobacterium sp. NRC-1-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_110845.1	Archaebacterial	Thermoplasma volcanium GSS1-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_342226.1	Archaebacterial	Sulfolobus solfataricus P2-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_559670.1	Archaebacterial	Pyrobaculum aerophilum str. IM2-1		Ribosomal-L23	 ribosomal protein L23 
+NP_579552.1	Archaebacterial	Pyrococcus furiosus DSM 3638-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_613698.1	Archaebacterial	Methanopyrus kandleri AV19-1		Ribosomal-L23	 ribosomal protein L23 
+NP_616019.1	Archaebacterial	Methanosarcina acetivorans C2A-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_634150.1	Archaebacterial	Methanosarcina mazei Go1-1		Ribosomal-L23	 50S ribosomal protein L23 
+NP_963359.1	Archaebacterial	Nanoarchaeum equitans Kin4-M-1		Ribosomal-L23	 hypothetical protein NEQ065 
+YP_023420.1	Archaebacterial	Picrophilus torridus DSM 9790-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_136232.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_255280.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_303675.1	Archaebacterial	Methanosarcina barkeri str. Fusaro-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_331154.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_447938.1	Archaebacterial	Methanosphaera stadtmanae DSM 3091-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_503675.1	Archaebacterial	Methanospirillum hungatei JF-1-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_564777.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_658550.1	Archaebacterial	Haloquadratum walsbyi DSM 16790-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_844132.1	Archaebacterial	Methanosaeta thermophila PT-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_919641.1	Archaebacterial	Thermofilum pendens Hrk 5-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001013479.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001029528.1	Archaebacterial	Methanocorpusculum labreanum Z-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001041024.1	Archaebacterial	Staphylothermus marinus F1-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001046481.1	Archaebacterial	Methanoculleus marisnigri JR1-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001154246.1	Archaebacterial	Pyrobaculum arsenaticum DSM 13514-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001190194.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001323376.1	Archaebacterial	Methanococcus vannielii SB-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001325000.1	Archaebacterial	Methanococcus aeolicus Nankai-3-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001403695.1	Archaebacterial	Candidatus Methanoregula boonei 6A8-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001435553.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_001540153.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001549171.1	Archaebacterial	Methanococcus maripaludis C6-1		Ribosomal-L23	 50S ribosomal protein L23 
+YP_001582141.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_001737918.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		Ribosomal-L23	 ribosomal protein L23 
+YP_001794199.1	Archaebacterial	Thermoproteus neutrophilus V24Sta-1		Ribosomal-L23	 ribosomal protein L25/L23 
+YP_002428868.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_002465541.1	Archaebacterial	Candidatus Methanosphaerula palustris E1-9c-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_002567092.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_002960367.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		Ribosomal-L23	 LSU ribosomal protein L23P (rpl23P) 
+YP_003131194.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003177651.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003357277.1	Archaebacterial	Methanocella paludicola SANAE-1		Ribosomal-L23	 50S ribosomal protein L23P 
+YP_003401081.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		Ribosomal-L23	 Ribosomal protein L25/L23 
+YP_003403773.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		Ribosomal-L23	 ribosomal protein L23 
+YP_003423596.1	Archaebacterial	Methanobrevibacter ruminantium M1-1		Ribosomal-L23	 ribosomal protein L23P Rpl23p 
+EAR88081.2	Eukaryotic	Tetrahymena thermophila SB210-1		NAD-kinase	 ATP-NAD kinase family protein 
+EAR94622.1	Eukaryotic	Tetrahymena thermophila SB210-1		NAD-kinase	 ATP-NAD kinase family protein 
+CAO79953.1	Eubacterial	Candidatus Cloacamonas acidaminovorans-1		NAD-kinase	CLOAM0035 putative inorganic polyphosphate/ATP-NAD kinase (Poly(P)/ATP NAD kinase) (modular protein) 
+YP_001956461	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1		NAD-kinase	TGRD-517 poly(p)/ATP-NAD kinase 
+NP_229531.1	Eubacterial	Thermotoga maritima MSB8-1		NAD-kinase	 hypothetical protein TM1733 
+NP_213617.1	Eubacterial	Aquifex aeolicus VF5-1		NAD-kinase	 hypothetical protein aq-909 
+NP_881132.1	Eubacterial	Bordetella pertussis Tohama I-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_181202.1	Eubacterial	Dehalococcoides ethenogenes 195-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase, putative 
+NP_820288.1	Eubacterial	Coxiella burnetii RSA 493-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_348694.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1		NAD-kinase	 kinase 
+NP_603174.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1		NAD-kinase	 ATP-NAD kinase 
+NP_622920.1	Eubacterial	Thermoanaerobacter tengcongensis MB4-1		NAD-kinase	 kinase 
+NP_923419.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_926471.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_969935.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_101244.1	Eubacterial	Bacteroides fragilis YCH46-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_172507.1	Eubacterial	Synechococcus elongatus PCC 6301-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_172939.1	Eubacterial	Synechococcus elongatus PCC 6301-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_225699.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_264747.1	Eubacterial	Psychrobacter arcticus 273-4-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_360802.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1		NAD-kinase	 ATP-NAD kinase 
+YP_378341.1	Eubacterial	Chlorobium chlorochromatii CaD3-1		NAD-kinase	 putative NAD kinase 
+YP_425608.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_822395.1	Eubacterial	Solibacter usitatus Ellin6076-1		NAD-kinase	 NAD() kinase 
+YP_865678.1	Eubacterial	Magnetococcus sp. MC-1-1		NAD-kinase	 NAD() kinase 
+YP_001000342.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001008569.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001009858.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001182800.1	Eubacterial	Shewanella putrefaciens CN-32-1		NAD-kinase	 NAD() kinase 
+YP_001296957.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001634687.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_001649996.1	Eubacterial	Rickettsia rickettsii str. Iowa-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_002005144.1	Eubacterial	Cupriavidus taiwanensis-1		NAD-kinase	 NAD()/NADH kinase family protein 
+YP_001802222.1	Eubacterial	Cyanothece sp. ATCC 51142-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001805489.1	Eubacterial	Cyanothece sp. ATCC 51142-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001819252.1	Eubacterial	Opitutus terrae PB90-1-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_001867482.1	Eubacterial	Nostoc punctiforme PCC 73102-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001868869.1	Eubacterial	Nostoc punctiforme PCC 73102-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_001875321.1	Eubacterial	Elusimicrobium minutum Pei191-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_001877537.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_002248499.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1		NAD-kinase	 probable inorganic polyphosphate/ATP-NAD kinase (Poly(P)/ATP NAD kinase) 
+YP_002250766.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1		NAD-kinase	 probable inorganic polyphosphate/ATP-NAD kinase (Poly(P)/ATP NAD kinase) 
+YP_002521453.1	Eubacterial	Thermomicrobium roseum DSM 5159-1		NAD-kinase	 putative NAD() kinase 
+YP_002753801.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1		NAD-kinase	 NAD()/NADH kinase 
+YP_002761377.1	Eubacterial	Gemmatimonas aurantiaca T-27-1		NAD-kinase	 putative inorganic polyphosphate/ATP-NAD kinase 
+YP_002975238.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003091267.1	Eubacterial	Pedobacter heparinus DSM 2366-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003185171.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003317415.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003322694.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003372483.1	Eubacterial	Pirellula staleyi DSM 6068-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+NP_864763	Eubacterial	Rhodopirellula baltica SH 1-1		NAD-kinase	RB2142 probable inorganic polyphosphate/ATP-NAD kinase 
+YP_876296	Archaebacterial	Cenarchaeum symbiosum A-1		NAD-kinase	CENSYa-1369 inorganic polyphosphate/ATP-NAD kinase 
+NP_147717.2	Archaebacterial	Aeropyrum pernix K1-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_126593.1	Archaebacterial	Pyrococcus abyssi GE5-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_071196.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		NAD-kinase	 hypothetical protein AF2373 
+NP_142982.1	Archaebacterial	Pyrococcus horikoshii OT3-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_394094.1	Archaebacterial	Thermoplasma acidophilum DSM 1728-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_280613.1	Archaebacterial	Halobacterium sp. NRC-1-1		NAD-kinase	 hypothetical protein VNG1900C 
+NP_111553.1	Archaebacterial	Thermoplasma volcanium GSS1-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_343598.1	Archaebacterial	Sulfolobus solfataricus P2-1		NAD-kinase	 hypothetical protein SSO2219 
+NP_578832.1	Archaebacterial	Pyrococcus furiosus DSM 3638-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+NP_614026.1	Archaebacterial	Methanopyrus kandleri AV19-1		NAD-kinase	 sugar kinase 
+NP_618232.1	Archaebacterial	Methanosarcina acetivorans C2A-1		NAD-kinase	 hypothetical protein MA3343 
+NP_634808.1	Archaebacterial	Methanosarcina mazei Go1-1		NAD-kinase	 hypothetical protein MM-2784 
+YP_022971.1	Archaebacterial	Picrophilus torridus DSM 9790-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_137778.1	Archaebacterial	Haloarcula marismortui ATCC 43049-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_254750.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		NAD-kinase	 hypothetical protein Saci-0027 
+YP_305699.1	Archaebacterial	Methanosarcina barkeri str. Fusaro-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_326907.1	Archaebacterial	Natronomonas pharaonis DSM 2160-1		NAD-kinase	 NAD() kinase 1 (inorganic polyphosphate/ATP-NAD kinase) 
+YP_448350.1	Archaebacterial	Methanosphaera stadtmanae DSM 3091-1		NAD-kinase	 inorganic polyphosphate/ATP-NAD kinase 
+YP_502371.1	Archaebacterial	Methanospirillum hungatei JF-1-1		NAD-kinase	 NAD() kinase 
+YP_565554.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		NAD-kinase	 NAD() kinase 
+YP_843269.1	Archaebacterial	Methanosaeta thermophila PT-1		NAD-kinase	 NAD() kinase 
+YP_919932.1	Archaebacterial	Thermofilum pendens Hrk 5-1		NAD-kinase	 NAD() kinase 
+YP_001012919.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		NAD-kinase	 ATP-NAD kinase 
+YP_001029871.1	Archaebacterial	Methanocorpusculum labreanum Z-1		NAD-kinase	 hypothetical protein Mlab-0428 
+YP_001040734.1	Archaebacterial	Staphylothermus marinus F1-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_001046883.1	Archaebacterial	Methanoculleus marisnigri JR1-1		NAD-kinase	 NAD() kinase 
+YP_001190839.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		NAD-kinase	 NAD() kinase 
+YP_001404513.1	Archaebacterial	Candidatus Methanoregula boonei 6A8-1		NAD-kinase	 NAD() kinase 
+YP_001435125.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		NAD-kinase	 NAD() kinase 
+YP_001540271.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		NAD-kinase	 NAD() kinase 
+YP_001581774.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_002428758.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		NAD-kinase	 Probable inorganic polyphosphate/ATP-NAD kinase 
+YP_002467346.1	Archaebacterial	Candidatus Methanosphaerula palustris E1-9c-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_002566316.1	Archaebacterial	Halorubrum lacusprofundi ATCC 49239-2		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_002958654.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		NAD-kinase	 Inorganic polyphosphate/ATP-NAD kinase (poly(P)/ATP NAD kinase) (ppnK) 
+YP_003130299.1	Archaebacterial	Halorhabdus utahensis DSM 12940-1		NAD-kinase	 NAD() kinase 
+YP_003177483.1	Archaebacterial	Halomicrobium mukohataei DSM 12286-1		NAD-kinase	 NAD() kinase 
+YP_003356791.1	Archaebacterial	Methanocella paludicola SANAE-1		NAD-kinase	 probable inorganic polyphosphate/ATP-NAD kinase 
+YP_003401258.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003402055.1	Archaebacterial	Haloterrigena turkmenica DSM 5511-1		NAD-kinase	 ATP-NAD/AcoX kinase 
+YP_003422933.1	Archaebacterial	Methanobrevibacter ruminantium M1-1		NAD-kinase	 ATP-NAD kinase 
+EFN53265.1	Eukaryotic	Chlorella variabilis-1		Peptidase-M22	 hypothetical protein CHLNCDRAFT-8322 
+EFN52171.1	Eukaryotic	Chlorella variabilis-1		Peptidase-M22	 hypothetical protein CHLNCDRAFT-27124 
+XP_652292.1	Eukaryotic	Entamoeba histolytica HM-1:IMSS-1		Peptidase-M22	 glycoprotein endopeptidase 
+EDO80093.1	Eukaryotic	Giardia lamblia ATCC 50803-1		Peptidase-M22-Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_010179.1	Eukaryotic	Saccharomyces cerevisiae-4		Peptidase-M22	 Putative metalloprotease, similar to O-sialoglycoprotein metallopeptidase from P. haemolytica; the authentic, non-tagged protein is detected in highly purified mitochondria in high-throughput studies; Qri7p 
+NP_012964.2	Eukaryotic	Saccharomyces cerevisiae-11		Peptidase-M22	 Putative glycoprotease proposed to be in transcription as a component of the EKC protein complex with Bud32p, Cgi121p, Pcc1p, and Gon7p; also identified as a component of the KEOPS protein complex; Kae1p 
+EEY53253.1	Eukaryotic	Phytophthora infestans T30-4-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase, putative 
+EDK31278.1	Eukaryotic	Tetrahymena thermophila SB210-1		Peptidase-M22	 o-sialoglycoprotein endopeptidase 
+EAN82272.1	Eukaryotic	Trypanosoma cruzi-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase, putative 
+EAN82030.1	Eukaryotic	Trypanosoma cruzi-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase, putative 
+NP_194003.1	Eukaryotic	Arabidopsis thaliana-1		Peptidase-M22	 glycoprotease M22 family protein 
+NP_566039.1	Eukaryotic	Arabidopsis thaliana-1		Peptidase-M22	 glycoprotease 1 
+XP_003073503.1	Eukaryotic	Encephalitozoon intestinalis ATCC 50506-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_060277.1	Eukaryotic	Homo sapiens-1		Peptidase-M22	 probable tRNA threonylcarbamoyladenosine biosynthesis protein OSGEP 
+NP_071748.2	Eukaryotic	Homo sapiens-1		Peptidase-M22	 probable tRNA threonylcarbamoyladenosine biosynthesis protein OSGEPL1 
+XP_002678425.1	Eukaryotic	Naegleria gruberi-1		Peptidase-M22	 predicted protein 
+XP_002678632.1	Eukaryotic	Naegleria gruberi-1		Peptidase-M22	 predicted protein 
+CAO80749	Eubacterial	Candidatus Cloacamonas acidaminovorans-1		Peptidase-M22	CLOAM0874 putative metalloendopeptidase, , glycoprotease family 
+YP_001956249	Eubacterial	Candidatus Endomicrobium sp. Rs-D17-1		Peptidase-M22	TGRD-305 O-sialoglycoprotein endopeptidase 
+ZP_02735025	Eubacterial	Gemmata obscuriglobus UQM 2246-1		Peptidase-M22	GobsU-010100024686 glycoprotein endopeptidase 
+NP_227960.1	Eubacterial	Thermotoga maritima MSB8-1		Peptidase-M22	 secreted metalloendopeptidase Gcp, putative 
+NP_213547.1	Eubacterial	Aquifex aeolicus VF5-1		Peptidase-M22	 sialoglycoprotease 
+NP_294105.1	Eubacterial	Deinococcus radiodurans R1-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_880431.1	Eubacterial	Bordetella pertussis Tohama I-1		Peptidase-M22	 glycoprotease 
+YP_182134.1	Eubacterial	Dehalococcoides ethenogenes 195-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_820235.1	Eubacterial	Coxiella burnetii RSA 493-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_347537.1	Eubacterial	Clostridium acetobutylicum ATCC 824-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+NP_603446.1	Eubacterial	Fusobacterium nucleatum subsp. nucleatum ATCC 25586-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_622210.2	Eubacterial	Thermoanaerobacter tengcongensis MB4-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_711631.1	Eubacterial	Leptospira interrogans serovar Lai str. 56601-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+NP_924300.1	Eubacterial	Gloeobacter violaceus PCC 7421-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_967606.1	Eubacterial	Bdellovibrio bacteriovorus HD100-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_099714.1	Eubacterial	Bacteroides fragilis YCH46-1		Peptidase-M22	 putative O-sialoglycoprotein endopeptidase 
+YP_144518.2	Eubacterial	Thermus thermophilus HB8-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_171009.1	Eubacterial	Synechococcus elongatus PCC 6301-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_224885.1	Eubacterial	Corynebacterium glutamicum ATCC 13032-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_263521.1	Eubacterial	Psychrobacter arcticus 273-4-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_359579.1	Eubacterial	Carboxydothermus hydrogenoformans Z-2901-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_378430.1	Eubacterial	Chlorobium chlorochromatii CaD3-1		Peptidase-M22	 peptidase M22, glycoprotease 
+YP_428650.1	Eubacterial	Rhodospirillum rubrum ATCC 11170-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_827401.1	Eubacterial	Solibacter usitatus Ellin6076-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_864667.1	Eubacterial	Magnetococcus sp. MC-1-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_001001001.1	Eubacterial	Campylobacter jejuni subsp. jejuni 81-176-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001008920.1	Eubacterial	Prochlorococcus marinus str. AS9601-1		Peptidase-M22	 o-sialoglycoprotein endopeptidase 
+YP_001182635.1	Eubacterial	Shewanella putrefaciens CN-32-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001296492.1	Eubacterial	Flavobacterium psychrophilum JIP02/86-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_001621322.1	Eubacterial	Acholeplasma laidlawii PG-8A-1		Peptidase-M22	 peptidase M22, O-sialoglycoprotein endopeptidase 
+YP_001634548.1	Eubacterial	Chloroflexus aurantiacus J-10-fl-1		Peptidase-M22	 glycoprotease family metalloendopeptidase 
+YP_001649409.1	Eubacterial	Rickettsia rickettsii str. Iowa-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001654525.1	Eubacterial	Chlamydia trachomatis 434/Bu-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_002006230.1	Eubacterial	Cupriavidus taiwanensis-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001801625.1	Eubacterial	Cyanothece sp. ATCC 51142-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001820657.1	Eubacterial	Opitutus terrae PB90-1-1		Peptidase-M22	 glycoprotease family metalloendopeptidase 
+YP_001867188.1	Eubacterial	Nostoc punctiforme PCC 73102-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001876103.1	Eubacterial	Elusimicrobium minutum Pei191-1		Peptidase-M22	 glycoprotease family metalloendopeptidase 
+YP_001877656.1	Eubacterial	Akkermansia muciniphila ATCC BAA-835-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_002248889.1	Eubacterial	Thermodesulfovibrio yellowstonii DSM 11347-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_002250682.1	Eubacterial	Dictyoglomus thermophilum H-6-12-1		Peptidase-M22	 sialoglycoprotease 
+YP_002521432.1	Eubacterial	Thermomicrobium roseum DSM 5159-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_002528072.1	Eubacterial	Bacillus cereus Q1-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_002755272.1	Eubacterial	Acidobacterium capsulatum ATCC 51196-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_002760131.1	Eubacterial	Gemmatimonas aurantiaca T-27-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_002977799.1	Eubacterial	Rhizobium leguminosarum bv. trifolii WSM1325-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_003093812.1	Eubacterial	Pedobacter heparinus DSM 2366-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_003183820.1	Eubacterial	Alicyclobacillus acidocaldarius subsp. acidocaldarius DSM 446-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_003317746.1	Eubacterial	Thermanaerovibrio acidaminovorans DSM 6589-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_003321788.1	Eubacterial	Thermobaculum terrenum ATCC BAA-798-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+YP_003371182.1	Eubacterial	Pirellula staleyi DSM 6068-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
+NP_868698	Eubacterial	Rhodopirellula baltica SH 1-1		Peptidase-M22	RB9084 glycoprotein endopeptidase 
+YP_876564	Archaebacterial	Cenarchaeum symbiosum A-1		Peptidase-M22	CENSYa-1642 O-sialoglycoprotein endopeptidase 
+NP_147734.1	Archaebacterial	Aeropyrum pernix K1-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_127447.1	Archaebacterial	Pyrococcus abyssi GE5-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_069941.1	Archaebacterial	Archaeoglobus fulgidus DSM 4304-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_143810.1	Archaebacterial	Pyrococcus horikoshii OT3-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_341968.1	Archaebacterial	Sulfolobus solfataricus P2-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_560007.1	Archaebacterial	Pyrobaculum aerophilum str. IM2-1		Peptidase-M22	 o-syaloglycoprotein endopeptidase 
+NP_577901.1	Archaebacterial	Pyrococcus furiosus DSM 3638-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_614741.1	Archaebacterial	Methanopyrus kandleri AV19-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+NP_963774.1	Archaebacterial	Nanoarchaeum equitans Kin4-M-1		Peptidase-M22	 hypothetical protein NEQ493 
+YP_255511.1	Archaebacterial	Sulfolobus acidocaldarius DSM 639-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_565869.1	Archaebacterial	Methanococcoides burtonii DSM 6242-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_842684.1	Archaebacterial	Methanosaeta thermophila PT-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_919864.1	Archaebacterial	Thermofilum pendens Hrk 5-1		Peptidase-M22	 putative DNA-binding/iron metalloprotein/AP endonuclease 
+YP_001012645.1	Archaebacterial	Hyperthermus butylicus DSM 5456-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_001040847.1	Archaebacterial	Staphylothermus marinus F1-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001153650.1	Archaebacterial	Pyrobaculum arsenaticum DSM 13514-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001192286.1	Archaebacterial	Metallosphaera sedula DSM 5348-1		Peptidase-M22	 O-sialoglycoprotein endopeptidase 
+YP_001434857.1	Archaebacterial	Ignicoccus hospitalis KIN4/I-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001540424.1	Archaebacterial	Caldivirga maquilingensis IC-167-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001582867.1	Archaebacterial	Nitrosopumilus maritimus SCM1-1		Peptidase-M22	 metalloendopeptidase glycoprotease family 
+YP_001737903.1	Archaebacterial	Candidatus Korarchaeum cryptofilum OPF8-1		Peptidase-M22	 glycoprotease family metalloendopeptidase 
+YP_001794573.1	Archaebacterial	Thermoproteus neutrophilus V24Sta-1		Peptidase-M22	 glycoprotease family metalloendopeptidase 
+YP_002429034.1	Archaebacterial	Desulfurococcus kamchatkensis 1221n-1		Peptidase-M22	 Putative O-sialoglycoprotein endopeptidase 
+YP_002958637.1	Archaebacterial	Thermococcus gammatolerans EJ3-1		Peptidase-M22	 class I apurinic AP-endonuclease (AP-lyase) (KaeI) 
+YP_003357205.1	Archaebacterial	Methanocella paludicola SANAE-1		Peptidase-M22	 putative O-sialoglycoprotein endopeptidase 
+YP_003400344.1	Archaebacterial	Archaeoglobus profundus DSM 5631-1		Peptidase-M22	 metalloendopeptidase, glycoprotease family 
