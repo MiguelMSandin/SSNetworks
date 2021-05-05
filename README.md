@@ -56,7 +56,7 @@ The output has been exported to `nets/FILE_allAgainstAll.similarities`.
   
 Consider other local alignment algorithms such as 'Diamond' (Buchfink et al. 2014), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` (Rognes et al. 2016) or any other algorithm for a different similarity identity. 
   
-####1.2_blastnClean.py  
+#### 1.2_blastnClean.py  
 Now we should remove reciprocal hits (i.e.; A-B=B-A) from the blastn search, and we can do that with the script `1.2_blastnClean.py` as follows:  
   
 `scripts/1.1_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities`  
