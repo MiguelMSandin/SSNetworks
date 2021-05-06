@@ -28,12 +28,12 @@ Phylogenetic trees have been largely used for the detailed exploration of phylog
 ### So, why SSN and not yet another phylogenetic tree?  
 Well firstly, SSN are not intended to replace phylogenetic analysis, but complement them. SSN are (mostly) based in local pairwise alignment similarity and therefore is not inferring phylogenetic signal (i.e.; A->G = A->C = A->T). Yet, SSN is not relying on a global alignment and therefore is less susceptible to highly variable or fast evolving regions or sequences (that would align depending on the algorithm or even prone to miss-alignments).  
 Second, phylogenetic trees are based in the assumption of a bifurcating especiation, which is highly accepted for the independent biological entity. However speciation is a complex process from an holistic perspective where interactions among different biological entities shape the central core of our studies, mostly genes and genomes.  
-Third, SSN most of the times targets other scientific question than phylogenetic relationships. Phylogenetic trees are the most powerful tool for the exploration of phylogenetic patterns. Yet the exploration of genome origins, deep and ancient phylogenetic relationships, or interactions host-symbiont are obscure and more complex processes than a bifurcating speciation, where multiple interactions are possible. The analyses of SSN provide tools for tackling a multitude of complex phenomena, such as the evolution of **gene transfer**, **composite genes and genomes**, **evolutionary transitions**, and **holobionts** ([Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594); [Meheust et al., 2013](https://www.pnas.org/content/113/13/3579)), which remain difficult to explore from a bifurcating speciation perspective ([Bapteste et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863); [Papale et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)).  
+Third, SSN most of the times targets other scientific question than phylogenetic relationships. Phylogenetic trees are the most powerful tool for the exploration of phylogenetic patterns. Yet the exploration of genome origins, deep and ancient phylogenetic relationships, or interactions host-symbiont are obscure and more complex processes than a bifurcating speciation, where multiple interactions are possible. The analyses of SSN provide tools for tackling a multitude of complex phenomena, such as the evolution of **gene transfer**, **composite genes and genomes**, **evolutionary transitions**, and **holobionts** ([Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594); [Meheust et al., 2013](https://www.pnas.org/content/113/13/3579)), which remain difficult to explore from a bifurcating speciation perspective ([Bapteste et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863); [Papale et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)).    
   
 ### And what about ecological analaysis?
 ### What is a SSN telling that is not another ordination analysis?  
 Again, SSN are **complementing** previous well-established analysis such as multivariate analyses (PERMANOVA, Simper, ...) or ordination analyses (nMDS, PCA, PCoA, ...), mostly focusing on abundance or diversity of the given studied taxa. The use of SSN play important roles in *testing* ecological hypothesis previously unveiled through other means by establishing multiple possible connections based in shared similarity. Here we can test and quantify the clustering trends of attributes related to your sequences (**assortativity**, [Foster et al., 2015](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)), or how many transitions are needed to go from one attribute to another (**shortest path**, [Arroyo et al., 2020](https://academic.oup.com/gbe/article/12/9/1664/5857131)).  
-  
+
 ---
   
 ## Data selection  
@@ -41,7 +41,6 @@ When SSN reconstruction the selection of the data is the most important step, as
 For this workshop I would recommend using a relatively small subset of your data (~<1 mB fasta file formatted), in order to speed up computational analyses and to get to see different outputs. Otherwise you can use any of the two files provided in the ‘raw’ folder:  
 -*FILE.fasta*: contains a random(ish) selection of 18S Radiolaria sequences trying to cover most of their diversity (plus some Phaeodaria sequences as an outgroup so you can also use the same file in phylogenetic analyses for comparisons).  
 -*FILE2.fasta*: Contains a random(ish) selection of protein genome sequences extracted from [Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594) ([Dryad repository](https://datadryad.org/stash/dataset/doi:10.5061/dryad.qr81p)). 
- 
   
 ---
   
@@ -57,7 +56,7 @@ To start, we perform a **local** pairwise similarity comparison among all sequen
   
 The output has been exported to `nets/FILE_allAgainstAll.similarities`.  
   
-Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity. 
+Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity.
   
 #### 1.2_blastnClean.py  
 Now we should remove reciprocal hits (i.e.; A-B=B-A) from the blastn search, and we can do that with the script `1.2_blastnClean.py` as follows:  
@@ -76,7 +75,6 @@ The next step is to create the network file from the cleaned blastn output (afte
   
 In the folder 'nets' we can see 4 different files corresponding to the networks of each identity threshold selected. These files have three columns, the pair of sequences (or nodes) compared, corresponding to column 1 and 2, and their similarity identity, in column 3. Each line represents the connections among nodes, or an edge:  
 
-|    |    |    |
 |----|----|----|
 |seq1|seq2|id12|
 |seq1|seq3|id13|
@@ -181,18 +179,24 @@ Finally we can make sense of all the previous analysis and get to see the result
 ---
   
 ## References  
-Alvarez-Ponce, D., Lopez, P., Bapteste, E., McInerney, J.O., 2013, 2013. Gene similarity networks provide tools for understanding eukaryote origins and evolution. PNAS. E1594–E1603. www.pnas.org/cgi/doi/10.1073/pnas.1211371110  
-Arroyo, A.S., Iannes, R., Bapteste, E., and Ruiz-Trillo, I., 2020. Gene Similarity Networks Unveil a Potential Novel Unicellular Group Closely Related to Animals from the Tara Oceans Expedition. Genome Biol. Evol. 12(9):1664–1678. doi:10.1093/gbe/evaa117  
-Bapteste, E., van Iersel, V., Janke, A., Kelchner, S., Kelk, S., McInerney, J.O., Morrison, D.A., Nakhleh, L., Steel, M., Stougie, L., and Whitfield, J. 2013. Networks: expanding evolutionary thinking. Trends in Genetics August 2013, Vol. 29, No. 8.  
-Buchfink B, Xie C, Huson DH (2014) Fast and sensitive protein alignment using DIAMOND. Nat Methods 12:59–60. doi: 10.1038/nmeth.3176  
-Forster, .D, Bittner, L., Karkar, S., Dunthorn, M., Romac, S., Audic, S., Lopez, P., Stoeck, T., Bapteste, B. 2015. Testing ecological theories with sequence similarity networks: marine ciliates exhibit similar geographic dispersal patterns as multicellular organisms. BMC Biology 13:16. Doi:10.1186/s12915-015-0125-5  
-Méheust, R., Zelzion, E., Bhattacharya, D., Lopez, P., and Bapteste, E.. 2013. Protein networks identify novel symbiogenetic genes resulting from plastid endosymbiosis. www.pnas.org/cgi/doi/10.1073/pnas.1517551113  
-Papale, F., Saget, J.,Bapteste, E., 2020. Networks consolidate the core concepts of evolution by natural selection. Trends Microbiol. 28, 254–265  
-Rognes, T., Flouri, T., Nichols, B., Quince, C., Mahé, F., 2016. VSEARCH: a versatile open source tool for
-metagenomics. PeerJ 4, e2584.
-Van Etten, J. and Bhattacharya, D., 2020. Horizontal Gene Transfer in Eukaryotes: Not if, but How Much? Trends in Genetics, Month 2020, Vol. xx, No. xx
+Alvarez-Ponce, D., Lopez, P., Bapteste, E., McInerney, J.O., 2013. Gene similarity networks provide tools for understanding eukaryote origins and evolution. PNAS. E1594–E1603. doi:[10.1073/pnas.1211371110](https://www.pnas.org/content/110/17/E1594)
+Arroyo, A.S., Iannes, R., Bapteste, E., and Ruiz-Trillo, I., 2020. Gene Similarity Networks Unveil a Potential Novel Unicellular Group Closely Related to Animals from the Tara Oceans Expedition. Genome Biol. Evol. 12(9):1664–1678. doi:10.1093/gbe/evaa117B
+Bapteste, E., van Iersel, V., Janke, A., Kelchner, S., Kelk, S., McInerney, J.O., Morrison, D.A., Nakhleh, L., Steel, M., Stougie, L., and Whitfield, J. 2013. Networks: expanding evolutionary thinking. Trends in Genetics August 2013, Vol. 29, No. 8. doi:10.1016/j.tig.2013.05.007
+Forster, .D, Bittner, L., Karkar, S., Dunthorn, M., Romac, S., Audic, S., Lopez, P., Stoeck, T., Bapteste, B. 2015. Testing ecological theories with sequence similarity networks: marine ciliates exhibit similar geographic dispersal patterns as multicellular organisms. BMC Biology 13:16. Doi:[10.1186/s12915-015-0125-5](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)
+Méheust, R., Zelzion, E., Bhattacharya, D., Lopez, P., and Bapteste, E.. 2013. Protein networks identify novel symbiogenetic genes resulting from plastid endosymbiosis. Doi:10.1073/pnas.1517551113
+Papale, F., Saget, J.,Bapteste, E., 2020. Networks consolidate the core concepts of evolution by natural selection. Trends Microbiol. 28, 254–265. doi:10.1016/j.tim.2019.11.006
+Van Etten, J. and Bhattacharya, D., 2020. Horizontal Gene Transfer in Eukaryotes: Not if, but How Much? Trends in Genetics, Month 2020, Vol. 36, 12, 915-925. doi:10.1016/j.tig.2020.08.006
+## Softwares
+Buchfink, B., Xie, C., Huson, D.H., 2014. Fast and sensitive protein alignment using DIAMOND. Nat Methods 12:59–60. doi: [10.1038/nmeth.3176](https://www.nature.com/articles/nmeth.3176)  
+R Core Team 2017. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
+RStudio Team 2020. RStudio: Integrated Development for R. RStudio, PBC, Boston, MA URL http://www.rstudio.com/.  
+Rognes, T., Flouri, T., Nichols, B., Quince, C., Mahé, F., 2016. VSEARCH: a versatile open source tool for metagenomics. PeerJ 4, e2584.  doi: [10.7717/peerj.2584](https://pubmed.ncbi.nlm.nih.gov/27781170/)  
+Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. 2003 Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Research Nov; 13(11): 2498-504. Doi: 10.1101/gr.1239303 
+Van Rossum, G., & Drake, F. L. 2009. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace. https://cytoscape.org/
 
 
-
+[Foster et al., 2015](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)), or how many transitions are needed to go from one attribute to another (**shortest path**, [Arroyo et al., 2020](https://academic.oup.com/gbe/article/12/9/1664/5857131)).  
+([Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594); [Meheust et al., 2013](https://www.pnas.org/content/113/13/3579)), which remain difficult to explore from a bifurcating speciation perspective ([Bapteste et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863); [Papale et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)).  
+([van Etten and Bhattacharya, 2020](https://www.sciencedirect.com/science/article/abs/pii/S0168952520302067)). The correct interpretation of such interactions is crucial for furthering the understanding of the evolution and diversity that we observe nowadays. 
 
 
