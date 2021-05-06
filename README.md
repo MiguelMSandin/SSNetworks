@@ -44,8 +44,10 @@ To quickly go through this pipeline, I would recommend using a relatively small 
 ---
   
 ## Getting started  
-Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the network.
-In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' will be in a folder called '**raw**', the scripts in a folder called '**scripts**', and the output from this pipeline will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).   
+Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the network.  
+In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' will be in a folder called '**raw**', the scripts in a folder called '**scripts**', and the output from this pipeline will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
+  
+For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.
   
 ### 1_blastn_allAgainstAll.sh 
 To start, we perform a **local** pairwise similarity comparison among all sequences using BLASTn, or in other words, a blast all-against-all. For that, firstly we create a database of `FILE.fasta` and then calculate the similarity. We are using 8 processors, so please change the script (line: 18) according to your needs/resources.  
@@ -54,7 +56,8 @@ To start, we perform a **local** pairwise similarity comparison among all sequen
   
 The output has been exported to `nets/FILE_allAgainstAll.similarities`.  
   
-Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity.
+>**Note1**: If you are using protein sequences you should change line 13-14 and 19-20.
+>**Note2**: Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity.
   
 #### 1.2_blastnClean.py  
 Now we should remove reciprocal hits (i.e.; A-B=B-A) from the blastn search, and we can do that with the script `1.2_blastnClean.py` as follows:  
