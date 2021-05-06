@@ -27,6 +27,7 @@ Phylogenetic trees have been largely used for the detailed exploration of phylog
   
 ### So, why SSN and not yet another phylogenetic tree?  
 Well firstly, SSN are not intended to replace phylogenetic analysis, but complement them. SSN are (mostly) based in local pairwise alignment similarity and therefore is not inferring phylogenetic signal (i.e.; A->G = A->C = A->T). Yet, SSN is not relying on a global alignment and the output (and threfore its interpretation) is less susceptible to unresolved positions of highly variable or fast evolving regions or sequences (that would align depending on the algorithm or even prone to miss-alignments).  
+  
 SSN most of the times targets other scientific question than phylogenetic relationships. Phylogenetic trees are the most powerful tool for the exploration of phylogenetic patterns. This tool is based in the assumption of a bifurcating especiation, which is highly accepted for the independent biological entity. However, speciation is a complex process from an holistic perspective where interactions among different biological entities shape the central core of our studies, mostly genes and genomes. Yet the exploration of genome origins, deep and ancient phylogenetic relationships, or co-evolution host-symbionts are obscure and more complex processes than a bifurcating speciation concept, where multiple interactions are possible. The analyses of SSN provide tools for tackling a multitude of evolutionary complex phenomena, such as **gene transfers**, either **composite genes and genomes** ([Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594)) or within **holobionts** ([Meheust et al., 2013](https://www.pnas.org/content/113/13/3579)), and therefore better understand evolutionary transitions, which remain difficult to explore from a bifurcating speciation perspective ([Bapteste et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863); [Papale et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)).   
   
 ### And what about ecological analaysis?
@@ -37,14 +38,18 @@ Again, SSN are complementing previous well-established analysis such as multivar
   
 ## Data selection  
 When SSN reconstruction the selection of the data is the most important step, as in phylogenetic analyses. Here you should include every group of sequences/proteins you want to compare, according to your scientific question. This is the most crucial and limiting step because each sequence has to be align to one another and the number of alignments is quadratic to the number of sequences. Keep in mind that since it is pairwise alignment, you can always remove sequences (or pairwise similarities) you finally decided not take into account without altering the rest of the data, but there will be a trade of between computational resources and biological meaning.  
+  
 To quickly go through this pipeline, I would recommend using a relatively small subset of your data (~<1 mB fasta file formatted), in order to speed up computational analyses and to get to see different outputs. Otherwise you can use any of the two files provided in the ‘raw’ folder:  
+  
 -*`FILE.fasta`*: contains a random(ish) selection of 18S Radiolaria sequences trying to cover most of their diversity (plus some Phaeodaria sequences as an outgroup so you can also use the same file in phylogenetic analyses for comparisons).  
+  
 -*`FILE2.fasta`*: Contains a random(ish) selection of protein genome sequences extracted from [Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594) ([Dryad repository](https://datadryad.org/stash/dataset/doi:10.5061/dryad.qr81p)). 
   
 ---
   
 ## Getting started  
 Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the network.  
+  
 In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' will be in a folder called '**raw**', the scripts in a folder called '**scripts**', and the output from this pipeline will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
   
 For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.
@@ -90,6 +95,7 @@ Yet might be relevant to include some colouring in the network for a better inte
   
 ### 2.2_attributes_file.R  
 With this script you can extract information out of the sequence names and create an attribute table called '**FILE.attr**'. If you already have a tab-delimited table with appropriate headers, you can skip this step.  
+  
 >**Important**: The first column should have the exact same name as the nodes in the network (although there is no need to remove sequences not present in the network). And remember to add a name for the attributes, so following scripts know what attribute is working on:  
 
 | Sequece_name    |Taxonomy     |Environment     |...  |
@@ -115,7 +121,7 @@ With this script we can calculate basic properties of a network and its nodes. I
     - connectivity  
     - clustering coefficient  
     - number of CCs  
-    - 
+  
 - **OUTPUT_nodes**: For each node it shows:  
     - degree: or number of edges related to the given node  
     - betweenness: or frequency of being in a shortest path  
@@ -140,6 +146,7 @@ But if you absolutely want to run file by file you can always do it as follows:
   
 ### 4_analyzeNetworkAssortativity.py
 We can now start looking for patterns, for example, among the attributes of the sequences. With this script we can analyze the tendency of the attributes of the sequences/nodes to cluster together or not. In other words the assortativity of the attributes or groups. This script will export a file with three columns, the attribute analyzed, the assortativity for each attribute and the different states of the attribute. And if there are more than one CC, another file will be exported for every CC.  
+  
 As in the previous step, we can run this analysis for all the nets using the script `4_analyzeNetworkAssortativity_files.sh` as follows:  
   
 `bash scripts/others/4_analyzeNetworkAssortativity_files.sh raw/FILE.attr`  
@@ -158,7 +165,9 @@ And again, if you want to run file by file:
   
 ### 5_analyzeNetworkShortestPath.py
 Other *interesting* analysis could be to calculate the number of nodes you have to cross from any given node with an attribute *state_A* to arrive until the closest node with an attribute *state_B*, also called 'shortest path analysis'. This understand you have an attribute with a binary state (two different states and not more), so one of the states will be considered *from* and the other *to* and will analyze the shortest path from the state *from* to the state *to*.  
+   
 Since for this analysis we are only interested in one attribute (with only two states), we have to provide another attribute file, which to avoid confussion will be called '**FILE.short**'. And we remove the headers!.  
+  
 Again, we run the script `others/5_analyzeNetworkShortestPath_files.sh` in order to perform this analysis for all the networks:  
   
 `bash scripts/others/5_analyzeNetworkShortestPath_files.sh raw/FILE.short "from+to"`  
@@ -197,6 +206,6 @@ Finally we can make sense of all the previous analysis and get to see the result
 -Van Rossum, G., & Drake, F. L. 2009. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace. [https://cytoscape.org/](https://cytoscape.org/)  
 
 ## Acknowledgements
-My introduction to Sequence Similarity Networks was thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers.
+My introduction to Sequence Similarity Networks was thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
 
 
