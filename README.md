@@ -13,7 +13,7 @@ Please, bear in mind that the scope of this file came from **an internal collabo
 - [BLAST+](https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=Download)  
 - [Cytoscape](https://cytoscape.org/) 
 - [python](https://www.python.org/)  
-    -   **Required modules**: argparse, collections, networkx, os, pandas, progressbar, random, re, statistics.  
+    -   **Required modules**: argparse, collections, networkx, pandas, re, statistics.  
 - [R](https://www.r-project.org/)  
     -   **Required packages**: data.table, ggplot2, ggrides, scales, RColorBrewer.  
     -   **Optional packages**: dplyr, tidyr, tibble, stringr, seqinr.  
@@ -23,7 +23,7 @@ Please, bear in mind that the scope of this file came from **an internal collabo
 ---
 
 ## General introduction, why SSN?  
-Phylogenetic trees have been largely used for the detailed exploration of phylogenetic patterns among biological entities allowing the understanding of relationships inaccessible by other means. With the advent of phylogenomics, previously unresolved patterns have clarified and improved their understanding. Yet, deep phylogenetic relationships, believed to have happened more than a billion years ago, remain blurry and mostly inaccessible from our clear understanding. In addition, eukaryotic genomes (and genes) are complex, interacting within and between different biological entities and at different levels (i.e.; genes, genomes, individuals, holobionts, populations, metapopulations, communities, ecosystems, ...) and therefore generating chimeric outputs (van Etten and Bhattacharya, 2020). The correct interpretation of such interactions is crucial for furthering the understanding of the evolution and diversity that we observe nowadays.  
+Phylogenetic trees have been largely used for the detailed exploration of phylogenetic patterns among biological entities allowing the understanding of relationships inaccessible by other means. With the advent of phylogenomics, previously unresolved patterns have clarified and improved their understanding. Yet, deep phylogenetic relationships, believed to have happened more than a billion years ago, remain blurry and mostly inaccessible from our clear understanding. In addition, eukaryotic genomes (and genes) are complex, interacting within and between different biological entities and at different levels (i.e.; genes, genomes, individuals, holobionts, populations, metapopulations, communities, ecosystems, ...) and therefore generating chimeric outputs ([van Etten and Bhattacharya, 2020](https://www.sciencedirect.com/science/article/abs/pii/S0168952520302067)). The correct interpretation of such interactions is crucial for furthering the understanding of the evolution and diversity that we observe nowadays.  
   
 ### So, why SSN and not yet another phylogenetic tree?  
 Well firstly, SSN are not intended to replace phylogenetic analysis, but complement them. SSN are (mostly) based in local pairwise alignment similarity and therefore is not inferring phylogenetic signal (i.e.; A->G = A->C = A->T). Yet, SSN is not relying on a global alignment and therefore is less susceptible to highly variable or fast evolving regions or sequences (that would align depending on the algorithm or even prone to miss-alignments).  
