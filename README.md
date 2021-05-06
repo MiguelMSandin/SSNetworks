@@ -180,23 +180,16 @@ Finally we can make sense of all the previous analysis and get to see the result
   
 ## References  
 Alvarez-Ponce, D., Lopez, P., Bapteste, E., McInerney, J.O., 2013. Gene similarity networks provide tools for understanding eukaryote origins and evolution. PNAS. E1594–E1603. doi:[10.1073/pnas.1211371110](https://www.pnas.org/content/110/17/E1594)
-Arroyo, A.S., Iannes, R., Bapteste, E., and Ruiz-Trillo, I., 2020. Gene Similarity Networks Unveil a Potential Novel Unicellular Group Closely Related to Animals from the Tara Oceans Expedition. Genome Biol. Evol. 12(9):1664–1678. doi:10.1093/gbe/evaa117B
-Bapteste, E., van Iersel, V., Janke, A., Kelchner, S., Kelk, S., McInerney, J.O., Morrison, D.A., Nakhleh, L., Steel, M., Stougie, L., and Whitfield, J. 2013. Networks: expanding evolutionary thinking. Trends in Genetics August 2013, Vol. 29, No. 8. doi:10.1016/j.tig.2013.05.007
-Forster, .D, Bittner, L., Karkar, S., Dunthorn, M., Romac, S., Audic, S., Lopez, P., Stoeck, T., Bapteste, B. 2015. Testing ecological theories with sequence similarity networks: marine ciliates exhibit similar geographic dispersal patterns as multicellular organisms. BMC Biology 13:16. Doi:[10.1186/s12915-015-0125-5](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)
-Méheust, R., Zelzion, E., Bhattacharya, D., Lopez, P., and Bapteste, E.. 2013. Protein networks identify novel symbiogenetic genes resulting from plastid endosymbiosis. Doi:10.1073/pnas.1517551113
-Papale, F., Saget, J.,Bapteste, E., 2020. Networks consolidate the core concepts of evolution by natural selection. Trends Microbiol. 28, 254–265. doi:10.1016/j.tim.2019.11.006
-Van Etten, J. and Bhattacharya, D., 2020. Horizontal Gene Transfer in Eukaryotes: Not if, but How Much? Trends in Genetics, Month 2020, Vol. 36, 12, 915-925. doi:10.1016/j.tig.2020.08.006
-## Softwares
+Arroyo, A.S., Iannes, R., Bapteste, E., and Ruiz-Trillo, I., 2020. Gene Similarity Networks Unveil a Potential Novel Unicellular Group Closely Related to Animals from the Tara Oceans Expedition. Genome Biol. Evol. 12(9):1664–1678. doi:[10.1093/gbe/evaa117B](https://academic.oup.com/gbe/article/12/9/1664/5857131)  
+Bapteste, E., van Iersel, V., Janke, A., Kelchner, S., Kelk, S., McInerney, J.O., Morrison, D.A., Nakhleh, L., Steel, M., Stougie, L., and Whitfield, J. 2013. Networks: expanding evolutionary thinking. Trends in Genetics August 2013, Vol. 29, No. 8. doi:[10.1016/j.tig.2013.05.007](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863)  
+Forster, .D, Bittner, L., Karkar, S., Dunthorn, M., Romac, S., Audic, S., Lopez, P., Stoeck, T., Bapteste, B. 2015. Testing ecological theories with sequence similarity networks: marine ciliates exhibit similar geographic dispersal patterns as multicellular organisms. BMC Biology 13:16. Doi:[10.1186/s12915-015-0125-5](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)  
+Méheust, R., Zelzion, E., Bhattacharya, D., Lopez, P., and Bapteste, E.. 2013. Protein networks identify novel symbiogenetic genes resulting from plastid endosymbiosis. Doi:[10.1073/pnas.1517551113](https://www.pnas.org/content/113/13/3579)  
+Papale, F., Saget, J.,Bapteste, E., 2020. Networks consolidate the core concepts of evolution by natural selection. Trends Microbiol. 28, 254–265. doi:[10.1016/j.tim.2019.11.006](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)  
+Van Etten, J. and Bhattacharya, D., 2020. Horizontal Gene Transfer in Eukaryotes: Not if, but How Much? Trends in Genetics, Month 2020, Vol. 36, 12, 915-925. doi:[10.1016/j.tig.2020.08.006](https://www.sciencedirect.com/science/article/abs/pii/S0168952520302067)  
+## Softwares  
 Buchfink, B., Xie, C., Huson, D.H., 2014. Fast and sensitive protein alignment using DIAMOND. Nat Methods 12:59–60. doi: [10.1038/nmeth.3176](https://www.nature.com/articles/nmeth.3176)  
 R Core Team 2017. R: A language and environment for statistical computing. R Foundation for Statistical Computing, Vienna, Austria. URL https://www.R-project.org/
-RStudio Team 2020. RStudio: Integrated Development for R. RStudio, PBC, Boston, MA URL http://www.rstudio.com/.  
+RStudio Team 2020. RStudio: Integrated Development for R. RStudio, PBC, Boston, MA URL [http://www.rstudio.com/](http://www.rstudio.com/).  
 Rognes, T., Flouri, T., Nichols, B., Quince, C., Mahé, F., 2016. VSEARCH: a versatile open source tool for metagenomics. PeerJ 4, e2584.  doi: [10.7717/peerj.2584](https://pubmed.ncbi.nlm.nih.gov/27781170/)  
-Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. 2003 Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Research Nov; 13(11): 2498-504. Doi: 10.1101/gr.1239303 
-Van Rossum, G., & Drake, F. L. 2009. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace. https://cytoscape.org/
-
-
-[Foster et al., 2015](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-015-0125-5)), or how many transitions are needed to go from one attribute to another (**shortest path**, [Arroyo et al., 2020](https://academic.oup.com/gbe/article/12/9/1664/5857131)).  
-([Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594); [Meheust et al., 2013](https://www.pnas.org/content/113/13/3579)), which remain difficult to explore from a bifurcating speciation perspective ([Bapteste et al., 2013](https://www.sciencedirect.com/science/article/abs/pii/S0168952513000863); [Papale et al. 2020](https://www.sciencedirect.com/science/article/pii/S0966842X19302926)).  
-([van Etten and Bhattacharya, 2020](https://www.sciencedirect.com/science/article/abs/pii/S0168952520302067)). The correct interpretation of such interactions is crucial for furthering the understanding of the evolution and diversity that we observe nowadays. 
-
-
+Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. 2003 Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Research Nov; 13(11): 2498-504. Doi:[10.1101/gr.1239303](https://pubmed.ncbi.nlm.nih.gov/14597658/)  
+Van Rossum, G., & Drake, F. L. 2009. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace. [https://cytoscape.org/](https://cytoscape.org/)  
