@@ -61,7 +61,7 @@ To start, we perform a **local** pairwise similarity comparison among all sequen
   
 The output has been exported to `nets/FILE_allAgainstAll.similarities`.  
   
->**Note1**: If you are using protein sequences you should change line 13-14 and 19-20.
+>**Note1**: If you are using protein sequences you should change line 13-14 and 19-20.  
 >**Note2**: Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity.
   
 #### 1.2_blastnClean.py  
