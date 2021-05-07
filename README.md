@@ -204,7 +204,9 @@ Finally we can make sense of all the previous analysis and get to see the result
 -Rognes, T., Flouri, T., Nichols, B., Quince, C., Mahé, F., 2016. VSEARCH: a versatile open source tool for metagenomics. PeerJ 4, e2584.  doi: [10.7717/peerj.2584](https://pubmed.ncbi.nlm.nih.gov/27781170/)  
 -Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T. 2003 Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Research Nov; 13(11): 2498-504. doi:[10.1101/gr.1239303](https://pubmed.ncbi.nlm.nih.gov/14597658/)  
 -Van Rossum, G., & Drake, F. L. 2009. Python 3 Reference Manual. Scotts Valley, CA: CreateSpace. [https://cytoscape.org/](https://cytoscape.org/)  
-
+  
+---
+  
 ## Acknowledgements
 My introduction to Sequence Similarity Networks was thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
 
