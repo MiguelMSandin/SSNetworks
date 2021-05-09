@@ -13,7 +13,7 @@ parser.add_argument("-a", "--attributeFile", dest="file_attr", required=True,
 parser.add_argument("-b", "--binaryStates", dest="binary_states", required=True,
                     help="The binary states of the attribute to look for the shortest path from 'from' to 'to' entered as a string and separated by a '+' (i.e.; 'from+to')")
 parser.add_argument("-o", "--output", dest="file_out", required=True,
-                    help="Output file. A file with the shortest path of every node labelled as 'from' to a node labelled as 'from'")
+                    help="Output file. A file with the shortest path of every node labelled as 'from' to a node labelled as 'to'")
 args = parser.parse_args()
 
 print("\n  Reading network")
