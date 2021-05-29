@@ -50,7 +50,7 @@ To quickly go through this pipeline, I would recommend using a relatively small 
 ## Getting started  
 Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the network.  
   
-In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' will be in a folder called '**raw**', the scripts in a folder called '**scripts**', and the output from this pipeline will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
+In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' is in a folder called '**raw**', scripts in a folder called '**scripts**', and the output will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
   
 For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.
   
