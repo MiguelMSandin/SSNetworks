@@ -5,7 +5,7 @@ Last modification: 2021-05-06
 miguelmendezsandin@gmail.com  
 
 ## Before starting  
-Please, bear in mind that the scope of this materials came from **an internal collaborative effort** and should only be considered as a **quick-and-dirty introduction** to SSN building. It is far from exhaustive in both theory, practical details and further references on SSN and it is written by a non-specialist in the topic. Therefore shouldn't be taken as a reference or complete framework for the study of SSN.  
+Please, bear in mind that the scope of these materials came from **an internal collaborative effort** and should only be considered as a **quick-and-dirty introduction** to SSN building. It is far from exhaustive in both theory, practical details and further references on SSN and it is written by a non-specialist in the topic. Therefore shouldn't be taken as a reference or complete framework for the study of SSN.  
   
 ---
   
