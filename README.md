@@ -39,9 +39,9 @@ Again, SSN are complementing previous well-established analysis such as multivar
 ## Data selection  
 When SSN reconstruction the selection of the data is the most important step, as in phylogenetic analyses. Here you should include every group of sequences/proteins you want to compare, according to your scientific question. This is the most crucial and limiting step because each sequence has to be align to one another and the number of alignments is quadratic to the number of sequences. Keep in mind that since it is pairwise alignment, you can always remove sequences (or pairwise similarities) you finally decided not take into account without altering the rest of the data, but there will be a trade-off between computational resources and biological meaning.  
   
-To quickly go through this pipeline, I would recommend using a relatively small subset of your data (~<1 mB fasta file formatted), in order to speed up computational analyses and to get to see different outputs. Otherwise you can use any of the two files provided in the ‘raw’ folder:  
+To quickly go through this pipeline, I would recommend using a relatively small subset of your data (~<1 mB fasta file formatted), in order to speed up computational analyses. Otherwise you can use any of the two files provided in the ‘raw’ folder:  
   
--*`FILE.fasta`*: contains a random(ish) selection of 18S Radiolaria sequences trying to cover most of their diversity (plus some Phaeodaria sequences as an outgroup so you can also use the same file in phylogenetic analyses for comparisons).  
+-*`FILE.fasta`*: contains a random(ish) selection of 18S Radiolaria sequences trying to cover most of their diversity (plus some Phaeodaria sequences as an outgroup so you can also use the same file in phylogenetic analyses).  
   
 -*`FILE2.fasta`*: Contains a random(ish) selection of protein genome sequences extracted from [Alvarez-Ponce et al. 2013](https://www.pnas.org/content/110/17/E1594) ([Dryad repository](https://datadryad.org/stash/dataset/doi:10.5061/dryad.qr81p)). 
   
