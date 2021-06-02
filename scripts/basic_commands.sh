@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Running BLASTn all-against-all
-bash scripts/1_blastn_allAgainstAll.sh raw/FILE.fasta
+bash scripts/1.1_blastn_allAgainstAll.sh raw/FILE.fasta
 
 # Cleaning blast output
-scripts/1.1_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities
-scripts/1.1_blastnClean.py -f nets/FILE2_allAgainstAll.similarities -o nets/FILE2_allAgainstAll_clean.similarities
+scripts/1.2_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities
+scripts/1.2_blastnClean.py -f nets/FILE2_allAgainstAll.similarities -o nets/FILE2_allAgainstAll_clean.similarities
 
 # Build network
 scripts/2.1_buildNetwork.py -f nets/FILE_allAgainstAll_clean.similarities -i "80+85+90+95" -c 80 -o nets/FILE.net
