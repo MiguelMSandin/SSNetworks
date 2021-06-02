@@ -11,7 +11,7 @@ library(stringr)
 
 #----
 #---- Working directory ----
-setwd("~/Desktop/Uppsala/project/dummy/")
+setwd("~/SSNetworks-main")
 #----
 #---- Creating a nodes + attribute table ---- 
 
@@ -44,6 +44,6 @@ table(out$description)
 
 # But feel free to use your imagination!
 
-write.table(out, gsub("\\..*$", ".attr", file_name), sep="\t", row.names=FALSE, quote=FALSE)
+write.table(out, gsub("\\.[^\\.]+$", ".attr", file_name), sep="\t", row.names=FALSE, quote=FALSE)
 
 
