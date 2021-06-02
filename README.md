@@ -48,28 +48,28 @@ To quickly go through this pipeline, I would recommend using a relatively small 
 ---
   
 ## Getting started  
-Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the network.  
+Let's assume we have gather in a single fasta file all the sequences/proteins we want to explore, and we call it '`FILE.fasta`'. This file will be our starting point for the creation, visualization and analysis of the networks.  
   
 In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' is in a folder called '**raw**', scripts in a folder called '**scripts**', and the output will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
   
 For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.
   
 ### 1_blastn_allAgainstAll.sh 
-To start, we perform a **local** pairwise similarity comparison among all sequences using BLASTn, or in other words, a blast all-against-all. For that, firstly we create a database of `FILE.fasta` and then calculate the similarity. We are using 8 processors, so please change the script (line: 18) according to your needs/resources.  
+To start, we perform a **local** pairwise similarity comparison among all sequences using BLASTn, or in other words, a blast all-against-all. For that, firstly we create a database of `FILE.fasta` and then calculate the similarity. We are using 8 processors, so please change the script (line: 19) according to your needs/resources.  
   
-`bash scripts/1_blastn_allAgainstAll.sh raw/FILE.fasta`  
+`bash scripts/1.1_blastn_allAgainstAll.sh raw/FILE.fasta`  
   
 The output has been exported to `nets/FILE_allAgainstAll.similarities`.  
   
->**Note1**: If you are using protein sequences you should change line 13-14 and 19-20.  
+>**Note1**: If you are using protein sequences you should comment/uncomment line 13-14 and 19-20.  
 >**Note2**: Consider other local alignment algorithms such as 'Diamond' ([Buchfink et al. 2014](https://www.nature.com/articles/nmeth.3176)), that it has been tested to be almost as accurate as BLAST and three times faster. Also, depending on your scientific question you might be interested in **global** similarity comparison instead; consider using `vsearch --allpairs_global` ([Rognes et al. 2016](https://pubmed.ncbi.nlm.nih.gov/27781170/)) or any other algorithm for a different similarity identity.
   
 #### 1.2_blastnClean.py  
 Now we should remove reciprocal hits (i.e.; A-B=B-A) from the blastn search, and we can do that with the script `1.2_blastnClean.py` as follows:  
   
-`scripts/1.1_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities`  
+`scripts/1.2_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities`  
   
->**Note1**: For further details on its usage, or the usage of any other python script, type `scripts/1.2_blastnClean.py -h`. If this is not working you may want to make the scripts executable as follows: '`chmod +x scripts/1.2_blastnClean.py`  
+>**Note1**: For further details on its usage, or the usage of any other python script, type `scripts/1.2_blastnClean.py -h`. If this is not working you may want to make the scripts executable as follows: '`chmod +x scripts/*.py`  
 >**Note2**: Pay attention to where you have located python in your computer and modify the first line of each python script accordingly (`#!/usr/bin/env python3`).  
   
 ---
@@ -208,6 +208,6 @@ Finally we can make sense of all the previous analysis and get to see the result
 ---
   
 ## Acknowledgements
-My introduction to Sequence Similarity Networks was thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
+I discovered Sequence Similarity Networks thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
 
 
