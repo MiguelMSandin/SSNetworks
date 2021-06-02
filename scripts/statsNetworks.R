@@ -20,7 +20,7 @@ library(RColorBrewer)
 
 #----
 #---- Working directory ----
-setwd("~/Desktop/Uppsala/m_presentations/210119_networksWorkshop/")
+setwd("~/SSNetworks-main/")
 #----
 #---- Network statistics ----
 
@@ -58,10 +58,9 @@ dev.off()
 #----
 #---- Connected Components statistics ----
 
-rm(list=ls()[!ls() %in% c()])
+rm(list=ls()[!ls() %in% c("dir")])
 
 # basically we do the same as in the previous part but focusing only in the CCs
-dir <- "nets/stats/"
 
 ccs <- c()
 for(i in grep("_network_CCs$", dir(dir), value=TRUE)){
@@ -86,7 +85,7 @@ dev.off()
 
 # Adding attributes and exploring how the CCs are distributed ______________________________________
 # Here you should change the path and name to yout attribute file __________________________________
-attributes <- fread("raw/FILE2.attr")
+attributes <- fread("raw/FILE.attr")
 
 nodes <- c()
 for(i in grep("_nodes$", dir(dir), value=TRUE)){
@@ -98,26 +97,23 @@ for(i in grep("_nodes$", dir(dir), value=TRUE)){
 nodes$fileShort <- nodes$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
 
 # Pay attention to the names you have given to the sequences in the attribute file _________________
-nodes <- merge(nodes, attributes, by.x="Node", by.y="RefSeq", all.x=TRUE)
+nodes <- merge(nodes, attributes, by.x="Node", by.y="seq", all.x=TRUE)
 if(any(is.na(nodes))){warning("Something went wrong, please check that every node in the network file has the same name as in the attribute file!!")}
 
 
 # Here you should play a bit with the attribute you have given _____________________________________
 # This example is made for an attribute that could be either Environmental (Env) or Reference (Ref) 
 
-file <- nodes %>% group_by(fileShort, Connected_component) %>% summarise(uniques=paste(unique(Domain), collapse="|"))
-file$uniques <- fifelse(file$uniques=="Archaebacterial"|
-                          file$uniques=="Eubacterial"|
-                          file$uniques=="Eukaryotic"|
-                          file$uniques=="Plasmid"|
-                          file$uniques=="Virus", file$uniques, "Mixed")
+file <- nodes %>% group_by(fileShort, Connected_component) %>% summarise(uniques=paste(unique(description), collapse="|"))
+file$uniques <- fifelse(file$uniques=="Environmental"|
+                          file$uniques=="Reference", file$uniques, "Mixed")
 table(file$uniques)
 sort(unique(file$uniques))
 
 plotCCsAttr <- ggplot(file, aes(x=fileShort, fill=uniques))+
   geom_bar(stat="count", position=position_dodge())+
-  #scale_fill_manual(values=c("springgreen3", "steelblue3", "grey40"),
-  #                  labels=c("Env", "Ref", "Both"))+
+  scale_fill_manual(values=c("springgreen3", "steelblue3", "grey40"),
+                    labels=c("Env", "Ref", "Both"))+
   scale_y_log10() + annotation_logticks(sides = 'l')+
   theme_bw()
 plotCCsAttr
@@ -132,9 +128,7 @@ dev.off()
 #----
 #---- Nodes centralities ----
 
-rm(list=ls()[!ls() %in% c()])
-
-dir <- "nets/stats/"
+rm(list=ls()[!ls() %in% c("dir")])
 
 nodes <- c()
 for(i in grep("_nodes$", dir(dir), value=TRUE)){
@@ -166,21 +160,21 @@ dev.off()
 
 # Now adding colours for the attributes ____________________________________________________________
 
-attributes <- fread("raw/FILE2.attr")
+attributes <- fread("raw/FILE.attr")
 
-nodea <- merge(node, attributes, by.x="Node", by.y="RefSeq", all.x=TRUE)
+nodea <- merge(node, attributes, by.x="Node", by.y="seq", all.x=TRUE)
 if(any(is.na(nodes))){warning("Something went wrong, please check that every node in the network file has the same name as in the attribute file!!")}
 
 # Choose your favorite attribute ___________________________________________________________________
-bxpAtt <- ggplot(nodea, aes(x=Domain, y=value, fill=Domain))+
+bxpAtt <- ggplot(nodea, aes(x=description, y=value, fill=description))+
   geom_boxplot(alpha=0.8)+
-  geom_jitter(alpha=0.2, position=position_jitter(0.3), aes(fill=Domain))+
-  #scale_fill_manual(values=c("springgreen3", "steelblue3", "grey40"))+
+  geom_jitter(alpha=0.2, position=position_jitter(0.3), aes(fill=description))+
+  scale_fill_manual(values=c("springgreen3", "steelblue3", "grey40"))+
   facet_grid(variable~fileShort, scales="free_y")+
   theme_bw()
 bxpAtt
 
-pdf("nets/plots/BoxPlot_nodes_centralities_assignation.pdf", width=11.69, height=8.27, paper='special')
+pdf("nets/plots/BoxPlot_nodes_centralities_description.pdf", width=11.69, height=8.27, paper='special')
 plot(bxpAtt)
 dev.off()
 
@@ -217,7 +211,7 @@ dev.off()
 
 rm(list=ls()[!ls() %in% c()])
 
-dir <- "nets/shortest_R-E/"
+dir <- "nets/shortest/"
 
 short <- c()
 for(i in grep("\\.shortest$", dir(dir), value=TRUE)){
