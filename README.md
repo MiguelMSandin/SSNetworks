@@ -1,7 +1,7 @@
 # Sequence Similarity Network (SSN)  
 
 Miguel M. Sandin  
-Last modification: 2021-06-02  
+Last modification: 2021-06-28  
 miguelmendezsandin@gmail.com  
 
 ## Before starting  
