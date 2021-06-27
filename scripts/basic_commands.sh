@@ -4,6 +4,7 @@
 bash scripts/1.1_blastn_allAgainstAll.sh raw/FILE.fasta
 
 # Cleaning blast output
+chmod +x scripts/*py
 scripts/1.2_blastnClean.py -f nets/FILE_allAgainstAll.similarities -o nets/FILE_allAgainstAll_clean.similarities
 # scripts/1.2_blastnClean.py -f nets/FILE2_allAgainstAll.similarities -o nets/FILE2_allAgainstAll_clean.similarities
 
