@@ -23,4 +23,5 @@ bash scripts/others/4_analyzeNetworkAssortativity_files.sh raw/FILE.attr
 bash scripts/others/5_analyzeNetworkShortestPath_files.sh raw/FILE.short "Environmental+Reference"
 # bash scripts/others/5_analyzeNetworkShortestPath_files.sh raw/FILE2.short "Eukaryotic+Other"
 
-
+# Plotting centralities, number of connected components, shortest path analysis, ...
+Rscript scripts/statsNetworks.R 
