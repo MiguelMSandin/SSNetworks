@@ -37,7 +37,7 @@ colnames(nets) <- c("file", "nnode", "nedge", "connect", "clust", "cc")
 rownames(nets) <- seq(1:length(grep("_network$", dir(dir), value=TRUE)))
 
 # Changing the name of the file for the identity thresholds we have selected
-nets$fileShort <- nets$file %>% gsub(".*_", "id", .) %>% gsub("\\..*$", "", .)
+nets$fileShort <- nets$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 # Formatting the table to ggplot input 
 net <- melt(nets, id.vars=c("file", "fileShort"))
@@ -69,7 +69,7 @@ for(i in grep("_network_CCs$", dir(dir), value=TRUE)){
   ccs <- rbind(ccs, tmp)
 }; rm(i, tmp)
 
-ccs$fileShort <- ccs$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
+ccs$fileShort <- ccs$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 cc <- ccs %>% group_by(file, fileShort) %>% summarise(N=length(unique(Connected_component)))
 
@@ -94,7 +94,7 @@ for(i in grep("_nodes$", dir(dir), value=TRUE)){
   nodes <- rbind(nodes, tmp)
 }; rm(i, tmp)
 
-nodes$fileShort <- nodes$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
+nodes$fileShort <- nodes$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 # Pay attention to the names you have given to the sequences in the attribute file _________________
 nodes <- merge(nodes, attributes, by.x="Node", by.y="seq", all.x=TRUE)
@@ -137,7 +137,7 @@ for(i in grep("_nodes$", dir(dir), value=TRUE)){
   nodes <- rbind(nodes, tmp)
 }; rm(i, tmp)
 
-nodes$fileShort <- nodes$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
+nodes$fileShort <- nodes$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 nodes$Degree <- as.numeric(nodes$Degree)
 nodes$Betweenness <- as.numeric(nodes$Betweenness)
@@ -193,7 +193,7 @@ for(i in grep("\\.assortativity$", dir(dir), value=TRUE)){
   assor <- rbind(assor, tmp)
 }; rm(i, tmp)
 
-assor$fileShort <- assor$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
+assor$fileShort <- assor$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 plotAssor <- ggplot(assor, aes(x=fileShort, y=assortativity_groups))+
   geom_point()+
@@ -220,7 +220,7 @@ for(i in grep("\\.shortest$", dir(dir), value=TRUE)){
   short <- rbind(short, tmp)
 }; rm(i, tmp)
 
-short$fileShort <- short$file %>% gsub("\\..*", "", .) %>% gsub(".*_", "id", .)
+short$fileShort <- short$file %>% gsub("_80c.*", "d", .) %>% gsub(".*_", "", .)
 
 short$shortestn <- with(short, ifelse(is.infinite(shortest), max(shortest[which(shortest < Inf)])+1, shortest))
 
