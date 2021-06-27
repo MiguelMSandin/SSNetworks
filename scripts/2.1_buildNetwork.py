@@ -72,14 +72,18 @@ iden = args.identity
 for i in iden.split('+'):
     if args.cover is not None:
         c=", '" + str(args.cover) + "' minimum cover"
+        C="_" + str(args.cover) + "c"
     else:
         c=""
+        C=""
     if args.evalue is not None:
         e=", '" + str(args.evalue) + "' maximum evalue"
+        E="_" + str(args.args) + "e"
     else:
         e=""
+        E=""
     print("  Creating a network file with '", i, "%' similarity threshold", c, e, sep="")        
-    tmp = re.sub("\..*$", "", args.file_out) + "_" + i + "." + re.sub(".*\.", "", args.file_out)
+    tmp = re.sub("\..*$", "", args.file_out) + "_" + i + "i" + C + E + "." + re.sub(".*\.", "", args.file_out)
     with open(tmp, "w") as outfile:
         for line in open(input_file):
             data = line[:-1].split("\t")
@@ -114,3 +118,4 @@ for i in iden.split('+'):
 
 print("Done")
 print("")
+
