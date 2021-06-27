@@ -52,8 +52,8 @@ Let's assume we have gather in a single fasta file all the sequences/proteins we
   
 In order to keep an order and a structure, we are going to be working in a given working directory where '`FILE.fasta`' is in a folder called '**raw**', scripts in a folder called '**scripts**', and the output will be exported to a folder called '**nets**'. So you can have other folders in the same directory with other analysis for the same fasta file (e.g.; multiple sequence alignments, phylogenetic analysis, BLAST NCBI search, sequencing results, metadata, etc.).  
   
-For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.
-Also the full pipeline can be run through the basic comands in this [script](https://github.com/MiguelMSandin/SSNetworks/blob/main/scripts/basic_commands.sh).
+For a **graphical guide**, please check the slides [presentation](https://github.com/MiguelMSandin/SSNetworks/blob/main/ppt/210506_networks_intro.pdf) in the [ppt](https://github.com/MiguelMSandin/SSNetworks/tree/main/ppt) folder.  
+The full pipeline can be run with this [script](https://github.com/MiguelMSandin/SSNetworks/blob/main/scripts/basic_commands.sh) in the [scripts](https://github.com/MiguelMSandin/SSNetworks/blob/main/scripts) folder.
   
 ### 1_blastn_allAgainstAll.sh 
 To start, we perform a **local** pairwise similarity comparison among all sequences using BLASTn, or in other words, a blast all-against-all. For that, firstly we create a database of `FILE.fasta` and then calculate the similarity. We are using 8 processors, so please change the script (line: 19) according to your needs/resources.  
