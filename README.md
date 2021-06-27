@@ -187,7 +187,9 @@ Or network by network:
   
 ### statsNetworks.R  
 Finally we can make sense of all the previous analysis and get to see the results with the R script `statsNetworks.R` (*recommended to open it in Rstudio*). The script is self explained, so please read carefully the headers and comments so you know what you are doing.  
-If you are using the files provided (especially `FILE.fasta`), you can run the script (`Rscript scripts/statsNetworks.R`) and see the plot results in `nets/plots`.
+If you are using the files provided (especially `FILE.fasta`), you can run the script `statsNetworks.R` as:  
+`Rscript scripts/statsNetworks.R`  
+and see the plot results in `nets/plots`.  
   
 ---
   
