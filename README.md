@@ -87,7 +87,7 @@ In the folder 'nets' we can see 4 different files corresponding to the networks 
 |----|----|----|
 |seq1|seq2|id12|
 |seq1|seq3|id13|
-|seq2|seq4|id23|
+|seq2|seq3|id23|
 |... |... |... |
 
   
