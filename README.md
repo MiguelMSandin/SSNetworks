@@ -1,7 +1,7 @@
 # Sequence Similarity Network (SSN)  
 
 Miguel M. Sandin  
-Last modification: 2021-06-28  
+Last modification: 2021-07-26  
 miguelmendezsandin@gmail.com  
 
 ## Before starting  
@@ -169,6 +169,14 @@ And again, if you want to run file by file:
 Other *interesting* analysis could be to calculate the number of nodes you have to cross from any given node with an attribute *state_A* to arrive until the closest node with an attribute *state_B*, also called 'shortest path analysis'. This understand you have an attribute with a binary state (two different states and not more), so one of the states will be considered *from* and the other *to* and will analyze the shortest path from the state *from* to the state *to*.  
    
 Since for this analysis we are only interested in one attribute (with only two states), we have to provide another attribute file, which to avoid confussion will be called '**FILE.short**'. And we remove the headers!.  
+  
+|    |    |
+|----|----|
+|seq1|from|
+|seq2|to|
+|seq3|to|
+|seq4|from|
+|----|----|
   
 Again, we run the script `others/5_analyzeNetworkShortestPath_files.sh` in order to perform this analysis for all the networks:  
   
