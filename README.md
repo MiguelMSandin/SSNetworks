@@ -168,7 +168,7 @@ And again, if you want to run file by file:
 ### 5_analyzeNetworkShortestPath.py
 Other *interesting* analysis could be to calculate the number of nodes you have to cross from any given node with an attribute *state_A* to arrive until the closest node with an attribute *state_B*, also called 'shortest path analysis'. This understand you have an attribute with a binary state (two different states and not more), so one of the states will be considered *from* and the other *to* and will analyze the shortest path from the state *from* to the state *to*.  
    
-Since for this analysis we are only interested in one attribute (with only two states), we have to provide another attribute file, which to avoid confussion will be called '**FILE.short**'. And we remove the headers!.  
+Since for this analysis we are only interested in one attribute (with only two states), we have to provide another attribute file, which to avoid confussion will be called '**FILE.short**'. And we remove the headers!    
   
 |    |    |
 |----|----|
