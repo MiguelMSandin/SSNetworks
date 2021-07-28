@@ -5,7 +5,7 @@ Last modification: 2021-07-26
 miguelmendezsandin@gmail.com  
 
 ## Before starting  
-Please, bear in mind that the scope of these materials came from **an internal collaborative effort** and should only be considered as a **quick-and-dirty introduction** to SSN building. It is far from exhaustive in both theory, practical details and further references on SSN and it is written by a non-specialist in the topic. Therefore shouldn't be taken as a reference or complete framework for the study of SSN.  
+Please, bear in mind that the scope of these materials came from **an internal collaborative effort** and should only be considered as a **quick-and-dirty introduction** to SSN building. It is far from exhaustive in both theory, practical details and further references on SSN and it is written by a non-specialist in the topic. Therefore shouldn't be taken as a complete framework for the study of SSN.  
   
 ---
   
@@ -221,6 +221,6 @@ and see the plot results in `nets/plots`.
 ---
   
 ## Acknowledgements
-I discovered Sequence Similarity Networks thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
+I discovered Sequence Similarity Networks thanks to a conversation with Alicia S. Arroyo and her very motivating [research](https://academic.oup.com/gbe/article/12/9/1664/5857131). Such interaction lead me to attend an excellent [workshop](http://www.evol-net.fr/index.php?option=com_content&view=article&id=79&Itemid=547) on SSN organized by the [AIRE team](http://www.evol-net.fr/) with Eric Bapteste, Eduardo Corel and Philippe Lopez (Sorbonne University, Paris) as main researchers. Therefore I'm very grateful for their time, outstanding explanations and motivation.  
 
 
