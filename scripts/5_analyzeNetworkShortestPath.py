@@ -6,14 +6,20 @@ import networkx as nx
 parser = argparse.ArgumentParser(description="Calculates the shortest path (number of nodes) that requires to go from state 'from' to state 'to' of the given attribute for every node of state 'from'.")
 
 # Add the arguments to the parser
-parser.add_argument("-f", "--file", dest="file_in", required=True,
+requiredArgs = parser.add_argument_group('required arguments')
+
+requiredArgs.add_argument("-f", "--file", dest="file_in", required=True,
                     help="Input file. A network file with three columns: 'qseqid sseqid id'.")
-parser.add_argument("-a", "--attributeFile", dest="file_attr", required=True,
+
+requiredArgs.add_argument("-a", "--attributeFile", dest="file_attr", required=True,
                     help="Attributes file. A file with the nodes in the first column and the binary attribute in the second column. Columns separated by '\\t'.")
-parser.add_argument("-b", "--binaryStates", dest="binary_states", required=True,
+
+requiredArgs.add_argument("-b", "--binaryStates", dest="binary_states", required=True,
                     help="The binary states of the attribute to look for the shortest path from 'from' to 'to' entered as a string and separated by a '+' (i.e.; 'from+to')")
-parser.add_argument("-o", "--output", dest="file_out", required=True,
+
+requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
                     help="Output file. A file with the shortest path of every node labelled as 'from' to a node labelled as 'to'")
+
 args = parser.parse_args()
 
 print("\n  Reading network")
@@ -73,5 +79,3 @@ with open(args.file_out, "w") as outfile:
             print((str(c) + "\t" + str(n) + "\t" + str(shortest) + "\t" + str(end)), file=outfile)
         
 print("\nDone")
-
-
