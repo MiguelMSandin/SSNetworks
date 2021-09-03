@@ -7,10 +7,14 @@ import statistics as st
 parser = argparse.ArgumentParser(description="Analyzes basic properties of a network (number of nodes, number of edges, connectivity, clustering coefficient and number of connected components), its connected components independently, if any, and its nodes (degree, betweeness, closeness and eccentricity).")
 
 # Add the arguments to the parser
-parser.add_argument("-f", "--file", dest="file_in", required=True,
+requiredArgs = parser.add_argument_group('required arguments')
+
+requiredArgs.add_argument("-f", "--file", dest="file_in", required=True,
                     help="Input file. A network file with three columns: 'qseqid sseqid id'.")
-parser.add_argument("-o", "--output", dest="file_out", required=True,
+
+requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
                     help="Output file. Returns two files: 'file_out_network' and 'file_out_nodes' with the properties of the network and the statistics for each node respectively.")
+
 args = parser.parse_args()
 
 print("\n  Reading network")
@@ -95,4 +99,3 @@ with open(outNodes, "w") as outfile:
         for node in CC.nodes():
             print((str(c) + "\t" + str(node) + "\t" + str(degree[node]) + "\t" + str(betweeness[node]) + "\t" + str(closeness[node]) + "\t" + str(eccentricity[node])), file=outfile)
     print("\n\nDone")
-
