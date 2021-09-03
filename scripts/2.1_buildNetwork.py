@@ -7,18 +7,26 @@ import re
 parser = argparse.ArgumentParser(description="Creates a network file from a similarity blast output. Files will be exported to the input file name ('file') followed by the identity threshold and the '.net' extension (i.e.; 'file_80.net').")
 
 # Add the arguments to the parser
-parser.add_argument("-f", "--file", dest="file_in", required=True,
+requiredArgs = parser.add_argument_group('required arguments')
+
+requiredArgs.add_argument("-f", "--file", dest="file_in", required=True,
                     help="Input file. This assumes a file with the following columns: 'qseqid sseqid evalue pident bitscore qstart qend qlen sstart send slen'.")
-parser.add_argument("-i", "--identity", dest="identity", required=True,
+
+requiredArgs.add_argument("-i", "--identity", dest="identity", required=True,
                     help="Identity threshold(s) to establish a connection between nodes. If more than one, separate them with a '+' into a string (i.e.; '80+85+90+95').")
-parser.add_argument("-o", "--output", dest="file_out", required=True,
+
+requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
                     help="Output file. Returns the network file.")
+
 parser.add_argument("-c", "--cover", dest="cover", required=False, default=None,
-                    help="If selected, also applies a minimal cover threshold to establish a connection between nodes.")
+                    help="Applies a minimal cover threshold to establish a connection between nodes, in addition to the identity and evalue, if selected, thresholds.")
+
 parser.add_argument("-e", "--evalue", dest="evalue", required=False, default=None,
-                    help="If selected, also applies a maximal evalue threshold to establish a connection between nodes.")
+                    help="Applies a maximal evalue threshold to establish a connection between nodes, in addition to the identity and cover, if selected, thresholds.")
+
 parser.add_argument("-k", "--clean", dest="cleaning", required=False, action="store_true", default=None,
                         help="If selected, the input file is cleaned from reciprocal hits (A-B = B-A) before creating the network file.")
+
 args = parser.parse_args()
 
 print("")
