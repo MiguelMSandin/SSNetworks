@@ -8,12 +8,17 @@ import pandas as pd
 parser = argparse.ArgumentParser(description="Analyzes the assortativity of a network by groups.")
 
 # Add the arguments to the parser
-parser.add_argument("-f", "--file", dest="file_in", required=True,
+requiredArgs = parser.add_argument_group('required arguments')
+
+requiredArgs.add_argument("-f", "--file", dest="file_in", required=True,
                     help="Input file. A network file with three columns: 'qseqid sseqid id'.")
-parser.add_argument("-a", "--attributes", dest="file_attr", required=True,
+
+requiredArgs.add_argument("-a", "--attributes", dest="file_attr", required=True,
                     help="Attributes file. A file with the nodes in the first column and the rest of the groups in the following columns matching the given node, separated by '\\t'. Note: Remember to add the column names, so it takes that name to sort out the output.")
-parser.add_argument("-o", "--output", dest="file_out", required=True,
+
+requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
                     help="Output file. Returns a file with the output. If there are more than 1 connected components (CC), another file will be exported to 'file_out_CCs' with the assortativity calculated independently for every CC.")
+
 args = parser.parse_args()
 
 print("\n  Reading network")
