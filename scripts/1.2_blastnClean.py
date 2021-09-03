@@ -5,10 +5,14 @@ import argparse
 parser = argparse.ArgumentParser(description="Removes reciprocal hits (A-B = B-A).")
 
 # Add the arguments to the parser
-parser.add_argument("-f", "--file", dest="file_in", required=True,
+requiredArgs = parser.add_argument_group('required arguments')
+
+requiredArgs.add_argument("-f", "--file", dest="file_in", required=True,
                     help="Input file. This assumes a file with the following columns: 'qseqid sseqid evalue pident bitscore qstart qend qlen sstart send slen'.")
-parser.add_argument("-o", "--output", dest="file_out", required=True,
+
+requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
                     help="Output file. Returns the filtered file to the specified location.")
+
 args = parser.parse_args()
 
 print("")
