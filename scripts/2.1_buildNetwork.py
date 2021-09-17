@@ -4,7 +4,7 @@ import argparse
 from collections import defaultdict
 import re
 
-parser = argparse.ArgumentParser(description="Creates a network file from a similarity blast output. Files will be exported to the input file name ('file') followed by the identity threshold and the '.net' extension (i.e.; 'file_80.net').")
+parser = argparse.ArgumentParser(description="Creates a network file from a similarity blast output.")
 
 # Add the arguments to the parser
 requiredArgs = parser.add_argument_group('required arguments')
@@ -16,7 +16,7 @@ requiredArgs.add_argument("-i", "--identity", dest="identity", required=True,
                     help="Identity threshold(s) to establish a connection between nodes. If more than one, separate them with a '+' into a string (i.e.; '80+85+90+95').")
 
 requiredArgs.add_argument("-o", "--output", dest="file_out", required=True,
-                    help="Output file. Returns the network file.")
+                    help="Output file. Returns the network file. Files will be exported to the output file name ('output') followed by the selected thresholds and the '.net' extension (i.e.; 'output_80.net').")
 
 parser.add_argument("-c", "--cover", dest="cover", required=False, default=None,
                     help="Applies a minimal cover threshold to establish a connection between nodes, in addition to the identity and evalue, if selected, thresholds.")
@@ -90,8 +90,8 @@ for i in iden.split('+'):
     else:
         e=""
         E=""
-    print("  Creating a network file with '", i, "%' similarity threshold", c, e, sep="")        
-    tmp = re.sub("\..*$", "", args.file_out) + "_" + i + "i" + C + E + "." + re.sub(".*\.", "", args.file_out)
+    print("  Creating a network file with '", i, "%' similarity threshold", c, e, sep="")
+    tmp = args.file_out + "_" + i + "i" + C + E + ".net"
     with open(tmp, "w") as outfile:
         for line in open(input_file):
             data = line[:-1].split("\t")
