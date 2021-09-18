@@ -84,7 +84,7 @@ for CC in CCs:
     print("\r    Working on CC ", c, "/", count, sep="", end="")
     keep = True
     if args.size is not None:
-        if len(CC) < int(4):
+        if len(CC) < int(args.size):
             keep = False
             for node in CC:
                 s += 1
