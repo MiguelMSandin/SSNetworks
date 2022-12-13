@@ -3,6 +3,7 @@
 Miguel M. Sandin  
 Last modification: 2021-07-28  
 miguelmendezsandin@gmail.com  
+[![DOI](https://zenodo.org/badge/364510594.svg)](https://zenodo.org/badge/latestdoi/364510594)  
 
 ## Before starting  
 Please, bear in mind that the scope of these materials came from **an internal collaborative effort** and should only be considered as a **quick-and-dirty introduction** to SSN building. It is far from exhaustive in both theory, practical details and further references on SSN and it is written by a non-specialist in the topic. Therefore shouldn't be taken as a complete framework for the use of SSN.  
